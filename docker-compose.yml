@@ -3,6 +3,11 @@ services:
   workspace:
     build: .
     container_name: bigdata_workspace
+<<<<<<< HEAD
+=======
+    platform: linux/amd64
+
+>>>>>>> 69d3a111fab055141859cae0becfe7f5e0d88254
     ports:
       - "8888:8888" # Jupyter Lab
       - "4040:4040" # Panel de control de Spark
@@ -11,6 +16,7 @@ services:
     volumes:
       - .:/home/jovyan/work
     environment:
+<<<<<<< HEAD
       - JUPYTER_TOKEN=
       - JUPYTER_PASSWORD="iicg2026"
       - JUPYTER_ALLOW_INSECURE_WRITES=true
@@ -25,6 +31,29 @@ services:
       - mongo_data:/data/db
         
   # EL SERVICIO QUE FALTA PARA EL PUERTO 8081
+=======
+      - JUPYTER_TOKEN=            
+      - JUPYTER_PASSWORD=         
+      - JUPYTER_ALLOW_INSECURE_WRITES=true  
+      - DISPLAY=:99               
+    
+    shm_size: "2gb"               # Evita fallos del navegador Selenium
+    depends_on:
+      - mongodb
+
+  # Contenedor de base de datos MongoDB
+  mongodb:
+    image: mongo:latest
+    container_name: bigdata_mongodb
+    platform: linux/amd64
+    ports:
+      - "27017:27017"             
+
+    volumes:
+      - mongo_data:/data/db       # Guarda los datos de forma persistente
+      
+  # Interfaz web para visualizar la base de datos en puerto 8081
+>>>>>>> 69d3a111fab055141859cae0becfe7f5e0d88254
   admin-db:
     image: mongo-express:latest
     container_name: bigdata_ui
@@ -32,10 +61,15 @@ services:
     ports:
       - "8081:8081"
     environment:
-      # Se conecta al servicio 'database' definido arriba
-      - ME_CONFIG_MONGODB_URL=mongodb://database:27017/
+      - ME_CONFIG_MONGODB_URL=mongodb://mongodb:27017/
     depends_on:
+<<<<<<< HEAD
       - database
 
+=======
+      - mongodb
+
+# Volumen persistente para MongoDB
+>>>>>>> 69d3a111fab055141859cae0becfe7f5e0d88254
 volumes:
   mongo_data:
