@@ -2,5 +2,19 @@
 =======
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23471725&assignment_repo_type=AssignmentRepo)
 >>>>>>> b152da8d22b3610a2b079ef754b163829aeb9534
-# BigData_IICG_2026_Actualizado
-Este respositorio sirve para el trabajo práctico de la asignatura Big Data. 
+
+# BigData_IICG_2026_Actualizado Turismo y hosteleria 
+Problematica:
+Como problema se identifico que cuando un turista busca una habitacion matrimonial en chile,tiene que entrar a distintas paginas de alojamiento para comprara precios y calidad, Al final no sabe bien a cual le conviene reservar.El problemaa es que los precios varian bastante entre plataforma para el mismo tipo de habitacion y ciudad, no existe una forma simple de verlo.Si bien existen comparadores de precios como trivago o google Hotels pero estas se orientan a la reserva directa y no permiten analizar el comportamiento del mercado hotelero de chile.Donde no es posible extraer los datos para ser estudiandos como tambien  no se muestra la diferencia por zona geografica ademas no distinguen que tipo de alojamiento que se esta comparando. Las agencias de turismo y los propios hoteles no cuentas con la informacion estructurada  para  entender como varia el precio de una habitacion matrimonial entre plataforma y ciudades.
+
+Propuesta de valor:
+La idea es usar scraping para extraer precios de habitaciones matrimoniales desde las principales plataforma de alojamiento que operan en chile, como Booking,TripAvisor,Airbnb,Despegar,WelcomeChile,Viajes Falabella y Skyscanner, y centralizar toda esa inforamcion en una base de datos en MongoDB.Con esto se podra comparar si realmente existen diferencias de precio entre plataforma para una misma ciudad y tambien analizar como  cambian las tarifas segun la zona geofrafica del pais ya sea Norte,Centro o Sur de chile.El objetivo no es solo guardar datos sino pdoer respondes con informacion real cual plataforma ofrece mejores opciones segun el destino a viajar.
+
+Analisis de las 4V:
+Volumen:Se necesitan más de 3.000 registros porque el precio de una habitación matrimonial no es un dato único, varía según la ciudad, la plataforma, la zona geográfica y la categoría del alojamiento. Si se tuviera una muestra pequeña probablemente la mayoría de los datos serían de Santiago y no representarían el mercado hotelero del resto del país. Con 500 registros por integrante se logra una distribución suficiente entre ciudades del Norte, Centro y Sur de Chile para que las comparaciones tengan validez.
+
+Variedad:El precio solo no alcanza para comparar alojamientos de forma justa. Una habitación matrimonial en un hotel cinco estrellas con desayuno incluido y una en un hostal básico pueden aparecer en la misma búsqueda pero no son lo mismo. Por eso se extraen 8 etiquetas: nombre de hotel, precio por noche, ciudad, estrellas, tipo de alojamiento, puntuacion, fecha de la captura y url delorigen. Cada una aporta contexto necesario para que la comparación entre plataformas y zonas geográficas.
+
+Veracidad:Para asegurar que los datos capturados sean confiables se aplicarán medidas como que los precios se guardarán como valores numéricos y no como texto, descartando cualquier registro que venga con símbolos de moneda o caracteres extraños.Luego , se eliminarán los registros que tengan campos vacíos o precios iguales a cero ya que claramente son errores de captura. Ademas, cada registro incluirá la URL exacta de donde se extrajo la información, permitiendo verificar el origen del dato en cualquier momento. Por último, si un hotel ya existe en la base de datos el sistema actualizará su precio en lugar de crear un registro duplicado, manteniendo la base de datos limpia y ordenada.
+
+Velocidad:Los precios de hotelería cambian constantemente, por lo que los datos que se capturen representan el momento exacto en que se ejecutó el scraper. Para este proyecto se realizará una captura inicial de datos durante la etapa de recolección. Y si en algún momento se necesita actualizar la información, el scraper puede volver a ejecutarse sin problema ya que está diseñado para actualizar los precios existentes en vez de crear registros nuevos.
