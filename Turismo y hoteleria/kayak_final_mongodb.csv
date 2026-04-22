@@ -1,0 +1,512 @@
+nombre_hotel,ciudad,plataforma,checkin,checkout,fecha_captura,grupo,integrante,precio_noche,precio_texto,zona_geografica
+Hotel Plaza Colon,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.539000,G5_Turismo_Hoteleria,Lucas-Cheuque,45485,$45.485,Norte
+Hotel Gavina Express Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.733000,G5_Turismo_Hoteleria,Lucas-Cheuque,58178,$58.178,Norte
+Hotel Y Restaurant Isidora,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.769000,G5_Turismo_Hoteleria,Lucas-Cheuque,40196,$40.196,Norte
+Hotel Andalucía,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.794000,G5_Turismo_Hoteleria,Lucas-Cheuque,43634,$43.634,Norte
+Panamericana Hotel Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.818000,G5_Turismo_Hoteleria,Lucas-Cheuque,68119,$68.119,Norte
+Hotel Concorde,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.846000,G5_Turismo_Hoteleria,Lucas-Cheuque,36176,$36.176,Norte
+Hotel Samaña,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.883000,G5_Turismo_Hoteleria,Lucas-Cheuque,52149,$52.149,Norte
+Amaru Hotel,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.916000,G5_Turismo_Hoteleria,Lucas-Cheuque,67434,$67.434,Norte
+Hotel Del Valle Azapa,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:33.982000,G5_Turismo_Hoteleria,Lucas-Cheuque,56274,$56.274,Norte
+Hotel & Spa Las Taguas,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.016000,G5_Turismo_Hoteleria,Lucas-Cheuque,71929,$71.929,Norte
+Le Prince Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.046000,G5_Turismo_Hoteleria,Lucas-Cheuque,32685,$32.685,Norte
+Raymi House Hostel,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.071000,G5_Turismo_Hoteleria,Lucas-Cheuque,24636,$24.636,Norte
+Hostel Posada de Gallo,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.092000,G5_Turismo_Hoteleria,Lucas-Cheuque,21156,$21.156,Norte
+Antay Hotel & Spa,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.113000,G5_Turismo_Hoteleria,Lucas-Cheuque,155494,$155.494,Norte
+Hotel Savona,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.147000,G5_Turismo_Hoteleria,Lucas-Cheuque,60294,$60.294,Norte
+Hotel Puerto Chinchorro,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.173000,G5_Turismo_Hoteleria,Lucas-Cheuque,75741,$75.741,Norte
+Hostel Willka Kuti Backpackers,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.195000,G5_Turismo_Hoteleria,Lucas-Cheuque,25852,$25.852,Norte
+Hostal D' Silvia,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.217000,G5_Turismo_Hoteleria,Lucas-Cheuque,40196,$40.196,Norte
+Diego De Almagro Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.241000,G5_Turismo_Hoteleria,Lucas-Cheuque,101194,$101.194,Norte
+Novotel Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.263000,G5_Turismo_Hoteleria,Lucas-Cheuque,107113,$107.113,Norte
+Apart Hotel Viscachani,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.287000,G5_Turismo_Hoteleria,Lucas-Cheuque,69814,$69.814,Norte
+Hotel Apacheta,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.313000,G5_Turismo_Hoteleria,Lucas-Cheuque,107189,$107.189,Norte
+Hostal Copa Arica,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.336000,G5_Turismo_Hoteleria,Lucas-Cheuque,31818,$31.818,Norte
+Hotel Qamiri,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.363000,G5_Turismo_Hoteleria,Lucas-Cheuque,38318,$38.318,Norte
+Illariy Wasi Hostal,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.395000,G5_Turismo_Hoteleria,Lucas-Cheuque,32130,$32.130,Norte
+Casa Huespedes Angoba,Arica,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:34.421000,G5_Turismo_Hoteleria,Lucas-Cheuque,47600,$47.600,Norte
+Terrado Cavancha,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.681000,G5_Turismo_Hoteleria,Lucas-Cheuque,59236,$59.236,Norte
+Holiday Inn Express Iquique By IHG,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.704000,G5_Turismo_Hoteleria,Lucas-Cheuque,76953,$76.953,Norte
+Terrado Suites Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.726000,G5_Turismo_Hoteleria,Lucas-Cheuque,83212,$83.212,Norte
+Diego De Almagro Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.748000,G5_Turismo_Hoteleria,Lucas-Cheuque,75103,$75.103,Norte
+Hilton Garden Inn Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.772000,G5_Turismo_Hoteleria,Lucas-Cheuque,114590,$114.590,Norte
+Gran Cavancha Suite,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.794000,G5_Turismo_Hoteleria,Lucas-Cheuque,56062,$56.062,Norte
+Terrado Arturo Prat,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.819000,G5_Turismo_Hoteleria,Lucas-Cheuque,40460,$40.460,Norte
+NH Iquique Pacifico,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.844000,G5_Turismo_Hoteleria,Lucas-Cheuque,62416,$62.416,Norte
+Studio 56 Apart Hotel by Terrado Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.877000,G5_Turismo_Hoteleria,Lucas-Cheuque,40460,$40.460,Norte
+ibis budget Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.905000,G5_Turismo_Hoteleria,Lucas-Cheuque,37882,$37.882,Norte
+NH Iquique Costa,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.926000,G5_Turismo_Hoteleria,Lucas-Cheuque,59765,$59.765,Norte
+Playa Hotel - Cavancha,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.950000,G5_Turismo_Hoteleria,Lucas-Cheuque,43158,$43.158,Norte
+ibis Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.973000,G5_Turismo_Hoteleria,Lucas-Cheuque,42425,$42.425,Norte
+Hotel Gavina Express Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:55.995000,G5_Turismo_Hoteleria,Lucas-Cheuque,52889,$52.889,Norte
+Hotel Terra Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.016000,G5_Turismo_Hoteleria,Lucas-Cheuque,48959,$48.959,Norte
+Hotel Baquedano Boulevard,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.039000,G5_Turismo_Hoteleria,Lucas-Cheuque,49500,$49.500,Norte
+Pampa Hotel Boutique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.061000,G5_Turismo_Hoteleria,Lucas-Cheuque,55534,$55.534,Norte
+Hotel Cavancha,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.085000,G5_Turismo_Hoteleria,Lucas-Cheuque,77350,$77.350,Norte
+hotel velero cavancha,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.110000,G5_Turismo_Hoteleria,Lucas-Cheuque,51979,$51.979,Norte
+Hotel Cano,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.135000,G5_Turismo_Hoteleria,Lucas-Cheuque,73780,$73.780,Norte
+Hotel Las Dunas,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.157000,G5_Turismo_Hoteleria,Lucas-Cheuque,42007,$42.007,Norte
+Backpacker's Hostel Iquique,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.181000,G5_Turismo_Hoteleria,Lucas-Cheuque,34875,$34.875,Norte
+Hotel Velero Express,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.202000,G5_Turismo_Hoteleria,Lucas-Cheuque,29618,$29.618,Norte
+Hogar Doña Gloria,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.225000,G5_Turismo_Hoteleria,Lucas-Cheuque,35965,$35.965,Norte
+Gran Cavancha Hotel & Apartment,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.248000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Norte
+Hotel La Carreta Playa Brava,Iquique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:00:56.270000,G5_Turismo_Hoteleria,Lucas-Cheuque,46205,$46.205,Norte
+Geotel Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.594000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Norte
+ibis budget Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.618000,G5_Turismo_Hoteleria,Lucas-Cheuque,59500,$59.500,Norte
+Hotel Diego de Almagro Alto el Loa Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.641000,G5_Turismo_Hoteleria,Lucas-Cheuque,120940,$120.940,Norte
+Hotel Diego de Almagro Calama Express,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.662000,G5_Turismo_Hoteleria,Lucas-Cheuque,105778,$105.778,Norte
+Park Hotel Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.683000,G5_Turismo_Hoteleria,Lucas-Cheuque,62852,$62.852,Norte
+Diego De Almagro Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.704000,G5_Turismo_Hoteleria,Lucas-Cheuque,124466,$124.466,Norte
+Hotel Agua Del Desierto,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.725000,G5_Turismo_Hoteleria,Lucas-Cheuque,111776,$111.776,Norte
+Ibis Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.746000,G5_Turismo_Hoteleria,Lucas-Cheuque,60000,$60.000,Norte
+Hotel Modular Express Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.774000,G5_Turismo_Hoteleria,Lucas-Cheuque,74415,$74.415,Norte
+Atankalama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.806000,G5_Turismo_Hoteleria,Lucas-Cheuque,77853,$77.853,Norte
+Ayelen Express,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.833000,G5_Turismo_Hoteleria,Lucas-Cheuque,62039,$62.039,Norte
+Hotel Aymara,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.860000,G5_Turismo_Hoteleria,Lucas-Cheuque,40000,$40.000,Norte
+Jallalla,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.883000,G5_Turismo_Hoteleria,Lucas-Cheuque,40196,$40.196,Norte
+Hotel Quitor,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.909000,G5_Turismo_Hoteleria,Lucas-Cheuque,65230,$65.230,Norte
+Céntrico Dpto Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.933000,G5_Turismo_Hoteleria,Lucas-Cheuque,73780,$73.780,Norte
+Cómodo Dpto Calama Centro,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.955000,G5_Turismo_Hoteleria,Lucas-Cheuque,80920,$80.920,Norte
+Dpto Calama Centro,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:36.998000,G5_Turismo_Hoteleria,Lucas-Cheuque,77350,$77.350,Norte
+Personal Laboral y agrupaciones,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.020000,G5_Turismo_Hoteleria,Lucas-Cheuque,42311,$42.311,Norte
+Hospedaje Oasis Modulares,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.056000,G5_Turismo_Hoteleria,Lucas-Cheuque,26626,$26.626,Norte
+Acogedor Dpto Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.079000,G5_Turismo_Hoteleria,Lucas-Cheuque,67830,$67.830,Norte
+Departamento Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.106000,G5_Turismo_Hoteleria,Lucas-Cheuque,62832,$62.832,Norte
+Edificio Concepto,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.130000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Norte
+Departamento Calama Kamac Mayu,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.157000,G5_Turismo_Hoteleria,Lucas-Cheuque,64153,$64.153,Norte
+Departamento Por DÍas,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.182000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Norte
+Habitación Express Calama,Calama,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:01:37.208000,G5_Turismo_Hoteleria,Lucas-Cheuque,32130,$32.130,Norte
+Geotel Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.036000,G5_Turismo_Hoteleria,Lucas-Cheuque,83459,$83.459,Norte
+Hotel Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.061000,G5_Turismo_Hoteleria,Lucas-Cheuque,78343,$78.343,Norte
+Enjoy Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.098000,G5_Turismo_Hoteleria,Lucas-Cheuque,201631,$201.631,Norte
+ibis Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.119000,G5_Turismo_Hoteleria,Lucas-Cheuque,63500,$63.500,Norte
+Hampton by Hilton Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.143000,G5_Turismo_Hoteleria,Lucas-Cheuque,78985,$78.985,Norte
+Rq Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.192000,G5_Turismo_Hoteleria,Lucas-Cheuque,92027,$92.027,Norte
+Wyndham Garden Antofagasta Pettra,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.218000,G5_Turismo_Hoteleria,Lucas-Cheuque,93085,$93.085,Norte
+Holiday Inn Express Antofagasta By IHG,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.241000,G5_Turismo_Hoteleria,Lucas-Cheuque,67771,$67.771,Norte
+NH Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.275000,G5_Turismo_Hoteleria,Lucas-Cheuque,68502,$68.502,Norte
+Hotel Diego De Almagro Costanera - Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.300000,G5_Turismo_Hoteleria,Lucas-Cheuque,117414,$117.414,Norte
+Terrado Suites Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.325000,G5_Turismo_Hoteleria,Lucas-Cheuque,98726,$98.726,Norte
+ibis Styles Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.363000,G5_Turismo_Hoteleria,Lucas-Cheuque,50000,$50.000,Norte
+Studio 56 by Terrado,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.401000,G5_Turismo_Hoteleria,Lucas-Cheuque,64877,$64.877,Norte
+Spark Hoteles,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.419000,G5_Turismo_Hoteleria,Lucas-Cheuque,96963,$96.963,Norte
+Hotel Costa Pacifico - Suite,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.439000,G5_Turismo_Hoteleria,Lucas-Cheuque,112125,$112.125,Norte
+Hotel Diego de Almagro Antofagasta Express,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.459000,G5_Turismo_Hoteleria,Lucas-Cheuque,75808,$75.808,Norte
+Tempora Apart Hotel,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.478000,G5_Turismo_Hoteleria,Lucas-Cheuque,53550,$53.550,Norte
+Hotel Alto Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.498000,G5_Turismo_Hoteleria,Lucas-Cheuque,86844,$86.844,Norte
+Ah Hotel,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.517000,G5_Turismo_Hoteleria,Lucas-Cheuque,54000,$54.000,Norte
+Hospedaje Nuevo Amanecer,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.538000,G5_Turismo_Hoteleria,Lucas-Cheuque,49416,$49.416,Norte
+Hotel Marina,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.563000,G5_Turismo_Hoteleria,Lucas-Cheuque,75334,$75.334,Norte
+Alto del Sol Costanera Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.609000,G5_Turismo_Hoteleria,Lucas-Cheuque,72282,$72.282,Norte
+Apart Antofagasta,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.630000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Norte
+Hotel Ming Shen,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.650000,G5_Turismo_Hoteleria,Lucas-Cheuque,86870,$86.870,Norte
+Hotel Costa Pacifico - Express,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.670000,G5_Turismo_Hoteleria,Lucas-Cheuque,93085,$93.085,Norte
+Apart Hotel Astore,Antofagasta,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:16.690000,G5_Turismo_Hoteleria,Lucas-Cheuque,46291,$46.291,Norte
+ibis budget Copiapo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.371000,G5_Turismo_Hoteleria,Lucas-Cheuque,45220,$45.220,Norte
+Hotel Chagall,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.394000,G5_Turismo_Hoteleria,Lucas-Cheuque,127484,$127.484,Norte
+Antay Casino Hotel,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.417000,G5_Turismo_Hoteleria,Lucas-Cheuque,137512,$137.512,Norte
+ibis Copiapo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.439000,G5_Turismo_Hoteleria,Lucas-Cheuque,61087,$61.087,Norte
+Diego De Almagro Copiapo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.463000,G5_Turismo_Hoteleria,Lucas-Cheuque,119529,$119.529,Norte
+Hotel Atacama Suites,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.485000,G5_Turismo_Hoteleria,Lucas-Cheuque,144916,$144.916,Norte
+Hotel San Francisco de la Selva,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.512000,G5_Turismo_Hoteleria,Lucas-Cheuque,85359,$85.359,Norte
+Tikay Suite Hotel,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.538000,G5_Turismo_Hoteleria,Lucas-Cheuque,66640,$66.640,Norte
+Hotel Pulmahue,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.565000,G5_Turismo_Hoteleria,Lucas-Cheuque,60932,$60.932,Norte
+Hotel Altos de Atacama,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.589000,G5_Turismo_Hoteleria,Lucas-Cheuque,59236,$59.236,Norte
+Hotel Boutique Molzano,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.609000,G5_Turismo_Hoteleria,Lucas-Cheuque,71929,$71.929,Norte
+Hotel Rocas de Bahía,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.628000,G5_Turismo_Hoteleria,Lucas-Cheuque,218961,$218.961,Norte
+Hotel Minga,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.651000,G5_Turismo_Hoteleria,Lucas-Cheuque,41650,$41.650,Norte
+Hotel Blanco Encalada,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.681000,G5_Turismo_Hoteleria,Lucas-Cheuque,97242,$97.242,Norte
+Hotel Montecatini Spa,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.703000,G5_Turismo_Hoteleria,Lucas-Cheuque,59500,$59.500,Norte
+Hostal Sol de Atacama,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.729000,G5_Turismo_Hoteleria,Lucas-Cheuque,50774,$50.774,Norte
+Hotel & Cabañas El Mirador Caldera,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.751000,G5_Turismo_Hoteleria,Lucas-Cheuque,80779,$80.779,Norte
+Hostal Ckair,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.774000,G5_Turismo_Hoteleria,Lucas-Cheuque,95200,$95.200,Norte
+Hotel Montecarlo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.814000,G5_Turismo_Hoteleria,Lucas-Cheuque,79175,$79.175,Norte
+Hotel K,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.837000,G5_Turismo_Hoteleria,Lucas-Cheuque,154700,$154.700,Norte
+El valle,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.858000,G5_Turismo_Hoteleria,Lucas-Cheuque,39111,$39.111,Norte
+Amoblados Copiapo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.879000,G5_Turismo_Hoteleria,Lucas-Cheuque,62409,$62.409,Norte
+El valle 2,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.900000,G5_Turismo_Hoteleria,Lucas-Cheuque,47600,$47.600,Norte
+Terrabahia Residences,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.936000,G5_Turismo_Hoteleria,Lucas-Cheuque,83914,$83.914,Norte
+Domo Camping,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.958000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Norte
+Hostal Cactus Copiapo,Copiapo,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:34.982000,G5_Turismo_Hoteleria,Lucas-Cheuque,33161,$33.161,Norte
+Hotel Serena Suite,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.290000,G5_Turismo_Hoteleria,Lucas-Cheuque,89928,$89.928,Norte
+Hotel y Cabañas Campanario,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.342000,G5_Turismo_Hoteleria,Lucas-Cheuque,106171,$106.171,Norte
+Hotel Canto del Mar,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.411000,G5_Turismo_Hoteleria,Lucas-Cheuque,83859,$83.859,Norte
+Hotel Diego de Almagro La Serena,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.461000,G5_Turismo_Hoteleria,Lucas-Cheuque,116003,$116.003,Norte
+Aparthotel Serena Dream,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.529000,G5_Turismo_Hoteleria,Lucas-Cheuque,70131,$70.131,Norte
+Enjoy Coquimbo,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.592000,G5_Turismo_Hoteleria,Lucas-Cheuque,230364,$230.364,Norte
+Hotel Costa Real,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.624000,G5_Turismo_Hoteleria,Lucas-Cheuque,113050,$113.050,Norte
+Hotel Francisco De Aguirre,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.654000,G5_Turismo_Hoteleria,Lucas-Cheuque,75245,$75.245,Norte
+Apart Hotel Y Cabanas Vegasur,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.680000,G5_Turismo_Hoteleria,Lucas-Cheuque,71369,$71.369,Norte
+Hotel Club La Serena,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.711000,G5_Turismo_Hoteleria,Lucas-Cheuque,127639,$127.639,Norte
+Apart Hotel Gran Pacifico,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.737000,G5_Turismo_Hoteleria,Lucas-Cheuque,79091,$79.091,Norte
+Hotel Domos Dream,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.765000,G5_Turismo_Hoteleria,Lucas-Cheuque,85680,$85.680,Norte
+Hotel Palmas de La Serena,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.827000,G5_Turismo_Hoteleria,Lucas-Cheuque,62533,$62.533,Norte
+Hotel Diego de Almagro La Serena Express,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.940000,G5_Turismo_Hoteleria,Lucas-Cheuque,96963,$96.963,Norte
+Hostal El Punto,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.968000,G5_Turismo_Hoteleria,Lucas-Cheuque,45174,$45.174,Norte
+Hotel Boutique Terra Diaguita & Spa,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:53.996000,G5_Turismo_Hoteleria,Lucas-Cheuque,99008,$99.008,Norte
+Apart Hotel Sendero del Sol,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.046000,G5_Turismo_Hoteleria,Lucas-Cheuque,87500,$87.500,Norte
+Hotel Escorial,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.080000,G5_Turismo_Hoteleria,Lucas-Cheuque,62605,$62.605,Norte
+Hostal Luna del Mar 840-B,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.109000,G5_Turismo_Hoteleria,Lucas-Cheuque,44427,$44.427,Norte
+El Arbol Eco Lodge,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.154000,G5_Turismo_Hoteleria,Lucas-Cheuque,52836,$52.836,Norte
+Cabañas Las Añañucas IV,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.261000,G5_Turismo_Hoteleria,Lucas-Cheuque,68425,$68.425,Norte
+Hostal Luna del Mar,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.342000,G5_Turismo_Hoteleria,Lucas-Cheuque,42311,$42.311,Norte
+Hotel Boutique Suri,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.376000,G5_Turismo_Hoteleria,Lucas-Cheuque,60195,$60.195,Norte
+Cabañas Las Añañucas I,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.432000,G5_Turismo_Hoteleria,Lucas-Cheuque,64260,$64.260,Norte
+Agua Marina - La Serena,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.465000,G5_Turismo_Hoteleria,Lucas-Cheuque,68627,$68.627,Norte
+Hotel Iberia,La Serena,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:02:54.497000,G5_Turismo_Hoteleria,Lucas-Cheuque,50456,$50.456,Norte
+Diego De Almagro Valparaiso,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.154000,G5_Turismo_Hoteleria,Lucas-Cheuque,92027,$92.027,Centro
+Hotel Boutique 17,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.190000,G5_Turismo_Hoteleria,Lucas-Cheuque,111852,$111.852,Centro
+Palacio Astoreca,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.221000,G5_Turismo_Hoteleria,Lucas-Cheuque,209441,$209.441,Centro
+Hotel Pullman Viña del Mar San Martín,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.244000,G5_Turismo_Hoteleria,Lucas-Cheuque,131015,$131.015,Centro
+Best Western Marina Del Rey,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.264000,G5_Turismo_Hoteleria,Lucas-Cheuque,113874,$113.874,Centro
+Sheraton Miramar Hotel & Convention Center,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.288000,G5_Turismo_Hoteleria,Lucas-Cheuque,284410,$284.410,Centro
+Hotel Oceanic,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.321000,G5_Turismo_Hoteleria,Lucas-Cheuque,187842,$187.842,Centro
+Mr. Mar Suites,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.348000,G5_Turismo_Hoteleria,Lucas-Cheuque,123761,$123.761,Centro
+Fauna Hotel,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.371000,G5_Turismo_Hoteleria,Lucas-Cheuque,171361,$171.361,Centro
+ibis Valparaiso,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.393000,G5_Turismo_Hoteleria,Lucas-Cheuque,67333,$67.333,Centro
+La Casa Piola,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.415000,G5_Turismo_Hoteleria,Lucas-Cheuque,40354,$40.354,Centro
+Casa Puente Hotel Boutique,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.437000,G5_Turismo_Hoteleria,Lucas-Cheuque,123761,$123.761,Centro
+Casa Higueras,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.459000,G5_Turismo_Hoteleria,Lucas-Cheuque,217339,$217.339,Centro
+Hotel Montecarlo,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.482000,G5_Turismo_Hoteleria,Lucas-Cheuque,119882,$119.882,Centro
+Casa Galos Hotel & Lofts,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.507000,G5_Turismo_Hoteleria,Lucas-Cheuque,119529,$119.529,Centro
+Hotel Boutique Acontraluz,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.532000,G5_Turismo_Hoteleria,Lucas-Cheuque,188497,$188.497,Centro
+Hotel Diego de Almagro Viña del Mar,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.560000,G5_Turismo_Hoteleria,Lucas-Cheuque,129049,$129.049,Centro
+Ayca La Flora Hotel Boutique,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.584000,G5_Turismo_Hoteleria,Lucas-Cheuque,150198,$150.198,Centro
+Casa Volante Hostal,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.658000,G5_Turismo_Hoteleria,Lucas-Cheuque,37600,$37.600,Centro
+Hotel Restaurante Ankara,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.748000,G5_Turismo_Hoteleria,Lucas-Cheuque,123761,$123.761,Centro
+Hotel Casa Somerscales,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.773000,G5_Turismo_Hoteleria,Lucas-Cheuque,135396,$135.396,Centro
+New Voga Hotel Boutique,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.796000,G5_Turismo_Hoteleria,Lucas-Cheuque,100701,$100.701,Centro
+Hotel Boutique Casa Vander,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.820000,G5_Turismo_Hoteleria,Lucas-Cheuque,101547,$101.547,Centro
+Bo Hotel & Terraza,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.847000,G5_Turismo_Hoteleria,Lucas-Cheuque,95694,$95.694,Centro
+Maki Hostels & Suites Valparaiso,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.871000,G5_Turismo_Hoteleria,Lucas-Cheuque,37847,$37.847,Centro
+Hotel Manoir Atkinson,Valparaiso,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:13.892000,G5_Turismo_Hoteleria,Lucas-Cheuque,99432,$99.432,Centro
+Hotel Pullman Viña del Mar San Martín,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.565000,G5_Turismo_Hoteleria,Lucas-Cheuque,131015,$131.015,Centro
+Best Western Marina Del Rey,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.597000,G5_Turismo_Hoteleria,Lucas-Cheuque,113874,$113.874,Centro
+Hostal Residencia Blest Gana,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.620000,G5_Turismo_Hoteleria,Lucas-Cheuque,42523,$42.523,Centro
+Diego De Almagro Valparaiso,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.641000,G5_Turismo_Hoteleria,Lucas-Cheuque,92027,$92.027,Centro
+Castillo Medieval,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.662000,G5_Turismo_Hoteleria,Lucas-Cheuque,69648,$69.648,Centro
+Dei Templi Apart Hotel,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.688000,G5_Turismo_Hoteleria,Lucas-Cheuque,83547,$83.547,Centro
+Casa Volante Hostal,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.714000,G5_Turismo_Hoteleria,Lucas-Cheuque,37600,$37.600,Centro
+Mr. Mar Suites,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.739000,G5_Turismo_Hoteleria,Lucas-Cheuque,123761,$123.761,Centro
+Hotel 5 Norte,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.763000,G5_Turismo_Hoteleria,Lucas-Cheuque,83895,$83.895,Centro
+Hotel Florencia,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.788000,G5_Turismo_Hoteleria,Lucas-Cheuque,79651,$79.651,Centro
+Eco Hostal Offenbacher-Hof,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.814000,G5_Turismo_Hoteleria,Lucas-Cheuque,62021,$62.021,Centro
+Hotel Montecarlo,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.839000,G5_Turismo_Hoteleria,Lucas-Cheuque,119882,$119.882,Centro
+ibis Valparaiso,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.863000,G5_Turismo_Hoteleria,Lucas-Cheuque,67333,$67.333,Centro
+La Casa Piola,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.886000,G5_Turismo_Hoteleria,Lucas-Cheuque,40354,$40.354,Centro
+LRH Viña del Mar and Convention Center - Ex Gala Hotel,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.910000,G5_Turismo_Hoteleria,Lucas-Cheuque,86386,$86.386,Centro
+Hotel 251,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.934000,G5_Turismo_Hoteleria,Lucas-Cheuque,64062,$64.062,Centro
+Hotel Rondo,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.959000,G5_Turismo_Hoteleria,Lucas-Cheuque,84616,$84.616,Centro
+Hotel Bordeplaza - Ex Monterilla,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:31.985000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Centro
+Maki Hostels & Suites Valparaiso,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.009000,G5_Turismo_Hoteleria,Lucas-Cheuque,37847,$37.847,Centro
+Hotel Boutique Domus Mare,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.039000,G5_Turismo_Hoteleria,Lucas-Cheuque,81317,$81.317,Centro
+La Blanca Hotel,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.061000,G5_Turismo_Hoteleria,Lucas-Cheuque,70519,$70.519,Centro
+Hotel Diego de Almagro Viña del Mar,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.090000,G5_Turismo_Hoteleria,Lucas-Cheuque,129049,$129.049,Centro
+Hotel Restaurante Ankara,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.128000,G5_Turismo_Hoteleria,Lucas-Cheuque,123761,$123.761,Centro
+Hotel Amalfi,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.151000,G5_Turismo_Hoteleria,Lucas-Cheuque,60082,$60.082,Centro
+Hotel Boutique Ossido Nero,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.175000,G5_Turismo_Hoteleria,Lucas-Cheuque,82341,$82.341,Centro
+Hostal Miramar,Vina del Mar,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:32.199000,G5_Turismo_Hoteleria,Lucas-Cheuque,49716,$49.716,Centro
+Wyndham Santiago Aeropuerto,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.451000,G5_Turismo_Hoteleria,Lucas-Cheuque,116356,$116.356,Centro
+Ibis Budget Santiago Providencia,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.486000,G5_Turismo_Hoteleria,Lucas-Cheuque,74772,$74.772,Centro
+Nobile Inn Santiago,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.511000,G5_Turismo_Hoteleria,Lucas-Cheuque,48922,$48.922,Centro
+Mercure Santiago Centro,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.533000,G5_Turismo_Hoteleria,Lucas-Cheuque,100000,$100.000,Centro
+Hotel Nippon y Centro de Eventos,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.554000,G5_Turismo_Hoteleria,Lucas-Cheuque,71224,$71.224,Centro
+Pullman Santiago Vitacura,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.572000,G5_Turismo_Hoteleria,Lucas-Cheuque,127766,$127.766,Centro
+MR Hotel Providencia (ex Hotel Neruda),Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.592000,G5_Turismo_Hoteleria,Lucas-Cheuque,108193,$108.193,Centro
+Novotel Santiago Providencia,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.616000,G5_Turismo_Hoteleria,Lucas-Cheuque,114000,$114.000,Centro
+Best Western Premier Marina Las Condes,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.640000,G5_Turismo_Hoteleria,Lucas-Cheuque,132329,$132.329,Centro
+Novotel Santiago Las Condes,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.667000,G5_Turismo_Hoteleria,Lucas-Cheuque,99739,$99.739,Centro
+Hotel Hw Libertad,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.694000,G5_Turismo_Hoteleria,Lucas-Cheuque,69338,$69.338,Centro
+Novotel Santiago Vitacura,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.718000,G5_Turismo_Hoteleria,Lucas-Cheuque,113333,$113.333,Centro
+Pullman Santiago El Bosque,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.743000,G5_Turismo_Hoteleria,Lucas-Cheuque,115080,$115.080,Centro
+DoubleTree by Hilton Santiago Kennedy,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.765000,G5_Turismo_Hoteleria,Lucas-Cheuque,126934,$126.934,Centro
+Le Méridien Santiago,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.787000,G5_Turismo_Hoteleria,Lucas-Cheuque,112115,$112.115,Centro
+Verde Madera Hostel B&B,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.811000,G5_Turismo_Hoteleria,Lucas-Cheuque,52092,$52.092,Centro
+Hotel Panamericano,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.835000,G5_Turismo_Hoteleria,Lucas-Cheuque,119004,$119.004,Centro
+Hotel Montecarlo Santiago,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.857000,G5_Turismo_Hoteleria,Lucas-Cheuque,65230,$65.230,Centro
+Hotel Brasilia,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.880000,G5_Turismo_Hoteleria,Lucas-Cheuque,62762,$62.762,Centro
+Almacruz Hotel y Centro de Convenciones,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.901000,G5_Turismo_Hoteleria,Lucas-Cheuque,93931,$93.931,Centro
+Four Points by Sheraton Santiago,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.924000,G5_Turismo_Hoteleria,Lucas-Cheuque,127474,$127.474,Centro
+Hotel Diego de Velazquez,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.953000,G5_Turismo_Hoteleria,Lucas-Cheuque,97316,$97.316,Centro
+Hotel Eurotel Providencia,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.976000,G5_Turismo_Hoteleria,Lucas-Cheuque,105073,$105.073,Centro
+Novapark,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:50.998000,G5_Turismo_Hoteleria,Lucas-Cheuque,88854,$88.854,Centro
+Tempo Rent Apart Hotel,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:51.020000,G5_Turismo_Hoteleria,Lucas-Cheuque,90440,$90.440,Centro
+AC Hotels by Marriott Santiago Cenco Costanera,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:51.044000,G5_Turismo_Hoteleria,Lucas-Cheuque,137804,$137.804,Centro
+Park Plaza Santiago,Santiago,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:03:51.069000,G5_Turismo_Hoteleria,Lucas-Cheuque,87638,$87.638,Centro
+Hotel Terrado Rancagua,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.678000,G5_Turismo_Hoteleria,Lucas-Cheuque,98726,$98.726,Centro
+Diego De Almagro Rancagua,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.701000,G5_Turismo_Hoteleria,Lucas-Cheuque,128697,$128.697,Centro
+Hotel Mar Andino,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.724000,G5_Turismo_Hoteleria,Lucas-Cheuque,100489,$100.489,Centro
+Hotel Piedra Verde,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.746000,G5_Turismo_Hoteleria,Lucas-Cheuque,132223,$132.223,Centro
+Vista Apartments - Aire Acondicionado y Estacionamiento,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.768000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Centro
+residencial Astorga,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.791000,G5_Turismo_Hoteleria,Lucas-Cheuque,68904,$68.904,Centro
+Hostal el Parrón,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.823000,G5_Turismo_Hoteleria,Lucas-Cheuque,51408,$51.408,Centro
+Departamento Hospedaje Rancagua Centro,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.863000,G5_Turismo_Hoteleria,Lucas-Cheuque,59067,$59.067,Centro
+Hotel Casa Millan Inn,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.894000,G5_Turismo_Hoteleria,Lucas-Cheuque,126140,$126.140,Centro
+Hospedaje Rancagua - Centro - Hermoso Departamento,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.918000,G5_Turismo_Hoteleria,Lucas-Cheuque,65515,$65.515,Centro
+Cruz de Triana,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.949000,G5_Turismo_Hoteleria,Lucas-Cheuque,105778,$105.778,Centro
+Hotel Doria,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:09.979000,G5_Turismo_Hoteleria,Lucas-Cheuque,118472,$118.472,Centro
+Noi Puma Lodge,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.013000,G5_Turismo_Hoteleria,Lucas-Cheuque,158944,$158.944,Centro
+Hotel Rio,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.040000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Centro
+Loftdonalejandro,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.069000,G5_Turismo_Hoteleria,Lucas-Cheuque,58178,$58.178,Centro
+Altavista Hostal,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.104000,G5_Turismo_Hoteleria,Lucas-Cheuque,54621,$54.621,Centro
+"Dep 2 habitaciones 1 baño , céntrico , parking , wifi , calefacción",Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.141000,G5_Turismo_Hoteleria,Lucas-Cheuque,72987,$72.987,Centro
+Hostal Nomade Renovado 2025,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.181000,G5_Turismo_Hoteleria,Lucas-Cheuque,49564,$49.564,Centro
+Hostal Viña Malva,Rancagua,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:10.212000,G5_Turismo_Hoteleria,Lucas-Cheuque,69389,$69.389,Centro
+Ecohotel Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.809000,G5_Turismo_Hoteleria,Lucas-Cheuque,103663,$103.663,Centro
+Hotel Casino Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.841000,G5_Turismo_Hoteleria,Lucas-Cheuque,136454,$136.454,Centro
+Hotel Diego De Almagro Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.876000,G5_Turismo_Hoteleria,Lucas-Cheuque,118119,$118.119,Centro
+Hotel Insigne,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.917000,G5_Turismo_Hoteleria,Lucas-Cheuque,86738,$86.738,Centro
+Hotel Diego de Almagro Talca Express,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.945000,G5_Turismo_Hoteleria,Lucas-Cheuque,105426,$105.426,Centro
+Hotel Marcos Gamero,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.973000,G5_Turismo_Hoteleria,Lucas-Cheuque,115795,$115.795,Centro
+Hotel Capelli Express,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:27.999000,G5_Turismo_Hoteleria,Lucas-Cheuque,59278,$59.278,Centro
+Residencial Don Santiago,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.027000,G5_Turismo_Hoteleria,Lucas-Cheuque,33600,$33.600,Centro
+Departamento Buena vista,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.055000,G5_Turismo_Hoteleria,Lucas-Cheuque,55005,$55.005,Centro
+Hostal Plaza Maule,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.083000,G5_Turismo_Hoteleria,Lucas-Cheuque,50932,$50.932,Centro
+Park Güell House Hotel,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.132000,G5_Turismo_Hoteleria,Lucas-Cheuque,95557,$95.557,Centro
+Hostal Del Centro Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.182000,G5_Turismo_Hoteleria,Lucas-Cheuque,52184,$52.184,Centro
+Hostal Plaza Maule Express,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.250000,G5_Turismo_Hoteleria,Lucas-Cheuque,50932,$50.932,Centro
+Apart las Rastras talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.286000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Centro
+Hostal Casa Azul,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.324000,G5_Turismo_Hoteleria,Lucas-Cheuque,60738,$60.738,Centro
+Apartamentos Terrazas de Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.422000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Centro
+Hostel 1760,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.464000,G5_Turismo_Hoteleria,Lucas-Cheuque,39138,$39.138,Centro
+Cuatro Norte 955 Apartamento Full equipado,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.490000,G5_Turismo_Hoteleria,Lucas-Cheuque,89911,$89.911,Centro
+Hotel Isla Bella Talca,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.514000,G5_Turismo_Hoteleria,Lucas-Cheuque,59469,$59.469,Centro
+Oriente Hostal,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.544000,G5_Turismo_Hoteleria,Lucas-Cheuque,49980,$49.980,Centro
+Hotel Stella,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.567000,G5_Turismo_Hoteleria,Lucas-Cheuque,168683,$168.683,Centro
+Departamento Corporativo IV Las Rastras ' San Miguel - Rentcovac - Factura Inmediata,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.600000,G5_Turismo_Hoteleria,Lucas-Cheuque,78901,$78.901,Centro
+Departamento Corporativo II Talca Las Rastras ' Valles Del Country - Rentcovac - Factura Inmediata,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.645000,G5_Turismo_Hoteleria,Lucas-Cheuque,73536,$73.536,Centro
+Departamento Corporativo I Talca Norte - Rentcovac - Factura Inmediata,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.684000,G5_Turismo_Hoteleria,Lucas-Cheuque,72020,$72.020,Centro
+Lircaydomohostal - Domo 40m2 para 4 personas,Talca,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:28.710000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Centro
+Mds Hotel Chillan,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:51.801000,G5_Turismo_Hoteleria,Lucas-Cheuque,133404,$133.404,Centro
+Hotel Diego de Almagro Chillan,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:51.851000,G5_Turismo_Hoteleria,Lucas-Cheuque,105073,$105.073,Centro
+Hotel Las Terrazas Business,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:51.873000,G5_Turismo_Hoteleria,Lucas-Cheuque,85416,$85.416,Centro
+Gran Hotel Isabel Riquelme,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:51.899000,G5_Turismo_Hoteleria,Lucas-Cheuque,90440,$90.440,Centro
+Hotel Las Terrazas Express,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.039000,G5_Turismo_Hoteleria,Lucas-Cheuque,76160,$76.160,Centro
+Tru by Hilton Chillan Ferrat,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.064000,G5_Turismo_Hoteleria,Lucas-Cheuque,91897,$91.897,Centro
+Hotel Aranjuez,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.173000,G5_Turismo_Hoteleria,Lucas-Cheuque,81872,$81.872,Centro
+Pewma Apart Hotel,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.220000,G5_Turismo_Hoteleria,Lucas-Cheuque,60928,$60.928,Centro
+Hotel Rukalaf,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.261000,G5_Turismo_Hoteleria,Lucas-Cheuque,66111,$66.111,Centro
+Hotel Libertador Bernardo O´Higgins,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.285000,G5_Turismo_Hoteleria,Lucas-Cheuque,58647,$58.647,Centro
+Hotel Tierra de Parras,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.327000,G5_Turismo_Hoteleria,Lucas-Cheuque,71929,$71.929,Centro
+Hotel Alicante,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.357000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Centro
+Apart Hotel Las Terrazas Suite,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.379000,G5_Turismo_Hoteleria,Lucas-Cheuque,71400,$71.400,Centro
+Parque Chillan - Héroes Parques,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.405000,G5_Turismo_Hoteleria,Lucas-Cheuque,39956,$39.956,Centro
+Tipico Hostel Chile,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.431000,G5_Turismo_Hoteleria,Lucas-Cheuque,42946,$42.946,Centro
+Hotel de la Avenida,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.454000,G5_Turismo_Hoteleria,Lucas-Cheuque,61880,$61.880,Centro
+"Pewma House, by Pewma Apart Hotel",Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.492000,G5_Turismo_Hoteleria,Lucas-Cheuque,74045,$74.045,Centro
+Apart Hotel Cancura,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.520000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Centro
+Hotel Boutique Casa Blanca,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.559000,G5_Turismo_Hoteleria,Lucas-Cheuque,75631,$75.631,Centro
+El Roble 2 Chillan,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.586000,G5_Turismo_Hoteleria,Lucas-Cheuque,47600,$47.600,Centro
+Hostal El Aromo Chillán,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.614000,G5_Turismo_Hoteleria,Lucas-Cheuque,40698,$40.698,Centro
+Alojamiento Rboy Las Mariposas,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.645000,G5_Turismo_Hoteleria,Lucas-Cheuque,88536,$88.536,Centro
+Cabañas Lemupewen Chillán 1 Factura,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.678000,G5_Turismo_Hoteleria,Lucas-Cheuque,43475,$43.475,Centro
+Cabañas Lemupewen Chillán 6 Factura,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.705000,G5_Turismo_Hoteleria,Lucas-Cheuque,47498,$47.498,Centro
+Hostal Donde Gabriel 497,Chillan,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:04:52.732000,G5_Turismo_Hoteleria,Lucas-Cheuque,39627,$39.627,Centro
+Hotel El Dorado,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.128000,G5_Turismo_Hoteleria,Lucas-Cheuque,79181,$79.181,Centro
+Diego De Almagro Lomas Verdes,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.155000,G5_Turismo_Hoteleria,Lucas-Cheuque,114240,$114.240,Centro
+Wyndham Concepcion Pettra,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.181000,G5_Turismo_Hoteleria,Lucas-Cheuque,168187,$168.187,Centro
+ibis Concepcion,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.208000,G5_Turismo_Hoteleria,Lucas-Cheuque,71598,$71.598,Centro
+Holiday Inn Express Concepcion By IHG,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.234000,G5_Turismo_Hoteleria,Lucas-Cheuque,145180,$145.180,Centro
+Hotel Terrano Concepción,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.261000,G5_Turismo_Hoteleria,Lucas-Cheuque,87584,$87.584,Centro
+Hotel Diego de Almagro Concepción,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.287000,G5_Turismo_Hoteleria,Lucas-Cheuque,118472,$118.472,Centro
+Hotel Alborada,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.312000,G5_Turismo_Hoteleria,Lucas-Cheuque,72634,$72.634,Centro
+Hotel El Araucano,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.339000,G5_Turismo_Hoteleria,Lucas-Cheuque,82154,$82.154,Centro
+Mds Hotel Concepción,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.364000,G5_Turismo_Hoteleria,Lucas-Cheuque,118772,$118.772,Centro
+Hotel Costanera Concepcion,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:16.390000,G5_Turismo_Hoteleria,Lucas-Cheuque,117534,$117.534,Centro
+Apart Hotel Castellon 176,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:20.994000,G5_Turismo_Hoteleria,Lucas-Cheuque,71792,$71.792,Centro
+Hotel Umawue,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.027000,G5_Turismo_Hoteleria,Lucas-Cheuque,75367,$75.367,Centro
+Hotel Romano,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.060000,G5_Turismo_Hoteleria,Lucas-Cheuque,77350,$77.350,Centro
+Pura Lodge,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.086000,G5_Turismo_Hoteleria,Lucas-Cheuque,179823,$179.823,Centro
+Hotel Santa Sofia,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.134000,G5_Turismo_Hoteleria,Lucas-Cheuque,46542,$46.542,Centro
+Los Magnolios,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.175000,G5_Turismo_Hoteleria,Lucas-Cheuque,60294,$60.294,Centro
+Hotel Don Matias,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.207000,G5_Turismo_Hoteleria,Lucas-Cheuque,50361,$50.361,Centro
+Hostal del Centro Concepción,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.233000,G5_Turismo_Hoteleria,Lucas-Cheuque,44427,$44.427,Centro
+Departamento Dual Prieto,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.259000,G5_Turismo_Hoteleria,Lucas-Cheuque,54145,$54.145,Centro
+Hotel Mar Sur,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.301000,G5_Turismo_Hoteleria,Lucas-Cheuque,65450,$65.450,Centro
+Mirador Parque,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:21.330000,G5_Turismo_Hoteleria,Lucas-Cheuque,52889,$52.889,Centro
+Hotel Terramar,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:22.355000,G5_Turismo_Hoteleria,Lucas-Cheuque,52445,$52.445,Centro
+Hotel Maquehue,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:22.384000,G5_Turismo_Hoteleria,Lucas-Cheuque,61351,$61.351,Centro
+Vista Laguna,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:22.425000,G5_Turismo_Hoteleria,Lucas-Cheuque,133689,$133.689,Centro
+Departamento Valle Escondido,Concepcion,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:22.477000,G5_Turismo_Hoteleria,Lucas-Cheuque,54299,$54.299,Centro
+Best Western Ferrat,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.406000,G5_Turismo_Hoteleria,Lucas-Cheuque,96406,$96.406,Sur
+Holiday Inn Express Temuco By IHG,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.429000,G5_Turismo_Hoteleria,Lucas-Cheuque,97183,$97.183,Sur
+Hotel Diego de Almagro Temuco Express,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.452000,G5_Turismo_Hoteleria,Lucas-Cheuque,103663,$103.663,Sur
+Hotel Diego de Almagro Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.482000,G5_Turismo_Hoteleria,Lucas-Cheuque,134691,$134.691,Sur
+Ku Hotel Turismo Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.504000,G5_Turismo_Hoteleria,Lucas-Cheuque,74045,$74.045,Sur
+Hotel Nicolás Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.527000,G5_Turismo_Hoteleria,Lucas-Cheuque,80984,$80.984,Sur
+Apart Hotel Aragon Portal,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.549000,G5_Turismo_Hoteleria,Lucas-Cheuque,104033,$104.033,Sur
+Hotel RP,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.572000,G5_Turismo_Hoteleria,Lucas-Cheuque,89911,$89.911,Sur
+Hotel Luanco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.595000,G5_Turismo_Hoteleria,Lucas-Cheuque,98180,$98.180,Sur
+Hotel La Casa Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.620000,G5_Turismo_Hoteleria,Lucas-Cheuque,34993,$34.993,Sur
+Hotel Newen,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.650000,G5_Turismo_Hoteleria,Lucas-Cheuque,41254,$41.254,Sur
+Apart Hotel Bauerle & Apartamentos,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.706000,G5_Turismo_Hoteleria,Lucas-Cheuque,49257,$49.257,Sur
+Hostal Los Guindos,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.736000,G5_Turismo_Hoteleria,Lucas-Cheuque,29618,$29.618,Sur
+Hostal Mackay Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.762000,G5_Turismo_Hoteleria,Lucas-Cheuque,49716,$49.716,Sur
+Motel Los Robles,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.789000,G5_Turismo_Hoteleria,Lucas-Cheuque,39603,$39.603,Sur
+Hospedaje klickmann,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.810000,G5_Turismo_Hoteleria,Lucas-Cheuque,39773,$39.773,Sur
+Hostal Andalue Temuco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.828000,G5_Turismo_Hoteleria,Lucas-Cheuque,45000,$45.000,Sur
+Hostal Centro Montt,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.846000,G5_Turismo_Hoteleria,Lucas-Cheuque,47089,$47.089,Sur
+Depto Ginebra 1 dorm con estacionamiento,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.868000,G5_Turismo_Hoteleria,Lucas-Cheuque,52184,$52.184,Sur
+Curitiba Vip Studio 21,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.890000,G5_Turismo_Hoteleria,Lucas-Cheuque,90719,$90.719,Sur
+Hostal del Bosque,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.911000,G5_Turismo_Hoteleria,Lucas-Cheuque,65450,$65.450,Sur
+Departamento Temuco Full Equipado,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.935000,G5_Turismo_Hoteleria,Lucas-Cheuque,54433,$54.433,Sur
+Hostal Dinamarca,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.957000,G5_Turismo_Hoteleria,Lucas-Cheuque,46001,$46.001,Sur
+Torremolinos departamentos,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:40.985000,G5_Turismo_Hoteleria,Lucas-Cheuque,56475,$56.475,Sur
+Hostal Los Avellanos,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:41.010000,G5_Turismo_Hoteleria,Lucas-Cheuque,60294,$60.294,Sur
+Hotel Boutique La Casa de Coco,Temuco,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:41.033000,G5_Turismo_Hoteleria,Lucas-Cheuque,90000,$90.000,Sur
+Hotel Marina Villa del Rio,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.694000,G5_Turismo_Hoteleria,Lucas-Cheuque,117096,$117.096,Sur
+Diego De Almagro Valdivia,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.721000,G5_Turismo_Hoteleria,Lucas-Cheuque,120235,$120.235,Sur
+Hotel Melillanca,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.766000,G5_Turismo_Hoteleria,Lucas-Cheuque,115002,$115.002,Sur
+Hotel Nueve Ríos,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.832000,G5_Turismo_Hoteleria,Lucas-Cheuque,82507,$82.507,Sur
+Hotel Boutique Cutipay,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.853000,G5_Turismo_Hoteleria,Lucas-Cheuque,148089,$148.089,Sur
+Hotel Casagrande Con Estacionamiento Exclusivo Y Estamos A 50 Mts Del Terminal De Buses,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.877000,G5_Turismo_Hoteleria,Lucas-Cheuque,45485,$45.485,Sur
+Hostel Torobayo,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.912000,G5_Turismo_Hoteleria,Lucas-Cheuque,70519,$70.519,Sur
+Hotel Di Torlaschi,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.938000,G5_Turismo_Hoteleria,Lucas-Cheuque,111067,$111.067,Sur
+Hotel Puerta del Sur,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.966000,G5_Turismo_Hoteleria,Lucas-Cheuque,250483,$250.483,Sur
+Hotel Naguilan,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:58.989000,G5_Turismo_Hoteleria,Lucas-Cheuque,72987,$72.987,Sur
+"Apart-Hotel Colonia-Königsberg Ubicado Costado Terminal Buses, Río Calle Calle Carabineros Departamentos Completos Con Aire Acondicionado Y Estacionamiento",Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.011000,G5_Turismo_Hoteleria,Lucas-Cheuque,59236,$59.236,Sur
+Hotel Encanto Del Río,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.042000,G5_Turismo_Hoteleria,Lucas-Cheuque,100489,$100.489,Sur
+Kapai Hostel,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.065000,G5_Turismo_Hoteleria,Lucas-Cheuque,39134,$39.134,Sur
+Apart Hotel Casablanca,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.091000,G5_Turismo_Hoteleria,Lucas-Cheuque,89911,$89.911,Sur
+Villa del Rio Express,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.152000,G5_Turismo_Hoteleria,Lucas-Cheuque,77112,$77.112,Sur
+Hostal Del Muelle,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.449000,G5_Turismo_Hoteleria,Lucas-Cheuque,59500,$59.500,Sur
+Kapai Departamentos de Turismo,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.491000,G5_Turismo_Hoteleria,Lucas-Cheuque,61849,$61.849,Sur
+Hotel Terra Valdivia,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.516000,G5_Turismo_Hoteleria,Lucas-Cheuque,53947,$53.947,Sur
+Edificio Guadalauquen,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.559000,G5_Turismo_Hoteleria,Lucas-Cheuque,61140,$61.140,Sur
+Hostal Feliza,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.578000,G5_Turismo_Hoteleria,Lucas-Cheuque,52265,$52.265,Sur
+Hostal Buenaventura,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.595000,G5_Turismo_Hoteleria,Lucas-Cheuque,69814,$69.814,Sur
+Cabañas Fischer Spa,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.616000,G5_Turismo_Hoteleria,Lucas-Cheuque,86474,$86.474,Sur
+Lodge Agua de la Piedra,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.635000,G5_Turismo_Hoteleria,Lucas-Cheuque,71757,$71.757,Sur
+Hostal camino del río,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.655000,G5_Turismo_Hoteleria,Lucas-Cheuque,47600,$47.600,Sur
+El Encanto de Antilhue,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.678000,G5_Turismo_Hoteleria,Lucas-Cheuque,79175,$79.175,Sur
+Cabaña Refugio Sauna Spa El Arrayan Casablanca Valdivia,Valdivia,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:05:59.700000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Sur
+Wyndham Puerto Varas Pettra,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.231000,G5_Turismo_Hoteleria,Lucas-Cheuque,231654,$231.654,Sur
+Solace Hotel Puerto Varas,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.253000,G5_Turismo_Hoteleria,Lucas-Cheuque,125876,$125.876,Sur
+Radisson Hotel Puerto Varas,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.283000,G5_Turismo_Hoteleria,Lucas-Cheuque,251273,$251.273,Sur
+Hotel Bellavista,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.307000,G5_Turismo_Hoteleria,Lucas-Cheuque,215788,$215.788,Sur
+Dein Haus Hotel y Departamentos,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.330000,G5_Turismo_Hoteleria,Lucas-Cheuque,62938,$62.938,Sur
+Casa Kalfu Hotel Boutique,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.352000,G5_Turismo_Hoteleria,Lucas-Cheuque,79968,$79.968,Sur
+Hotel Awa,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.374000,G5_Turismo_Hoteleria,Lucas-Cheuque,581780,$581.780,Sur
+Casa Molino Hotel Boutique & Restaurant Puerto Varas,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.395000,G5_Turismo_Hoteleria,Lucas-Cheuque,246735,$246.735,Sur
+Hotel Puelche,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.417000,G5_Turismo_Hoteleria,Lucas-Cheuque,115298,$115.298,Sur
+Hotel Museo El Greco Puerto Varas,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.439000,G5_Turismo_Hoteleria,Lucas-Cheuque,99784,$99.784,Sur
+Hotel Cabaña del Lago,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.461000,G5_Turismo_Hoteleria,Lucas-Cheuque,163175,$163.175,Sur
+Hotel Germania,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.483000,G5_Turismo_Hoteleria,Lucas-Cheuque,136486,$136.486,Sur
+Hotel Terrazas del Lago,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.505000,G5_Turismo_Hoteleria,Lucas-Cheuque,89365,$89.365,Sur
+Hotel Agua Nativa,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.527000,G5_Turismo_Hoteleria,Lucas-Cheuque,78995,$78.995,Sur
+Mapatagonia Hostel Casa Historica,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.548000,G5_Turismo_Hoteleria,Lucas-Cheuque,40481,$40.481,Sur
+Casa Ellies Hotel Boutique,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.568000,G5_Turismo_Hoteleria,Lucas-Cheuque,70998,$70.998,Sur
+Hostal Compass del Sur,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.591000,G5_Turismo_Hoteleria,Lucas-Cheuque,44427,$44.427,Sur
+Parque la Pajarera,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.635000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Sur
+Dolce Vita - Alojamiento Histórico,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.659000,G5_Turismo_Hoteleria,Lucas-Cheuque,88854,$88.854,Sur
+Casa Azul Hostel,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:18.681000,G5_Turismo_Hoteleria,Lucas-Cheuque,56743,$56.743,Sur
+Hotel Boutique Casa&Alma,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.430000,G5_Turismo_Hoteleria,Lucas-Cheuque,80920,$80.920,Sur
+Hostal Brisas del Sur,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.453000,G5_Turismo_Hoteleria,Lucas-Cheuque,31733,$31.733,Sur
+Patagonia Route B&B,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.477000,G5_Turismo_Hoteleria,Lucas-Cheuque,99432,$99.432,Sur
+Apart & Tour,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.525000,G5_Turismo_Hoteleria,Lucas-Cheuque,80920,$80.920,Sur
+Departamentos Nómades del Lago,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.547000,G5_Turismo_Hoteleria,Lucas-Cheuque,72987,$72.987,Sur
+Hostal y Cabañas - Villa Germana,Puerto Varas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:19.568000,G5_Turismo_Hoteleria,Lucas-Cheuque,48658,$48.658,Sur
+Gran Pacifico,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.251000,G5_Turismo_Hoteleria,Lucas-Cheuque,111924,$111.924,Sur
+Courtyard by Marriott Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.271000,G5_Turismo_Hoteleria,Lucas-Cheuque,129402,$129.402,Sur
+Hotel Angelmontt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.310000,G5_Turismo_Hoteleria,Lucas-Cheuque,41254,$41.254,Sur
+Abba Presidente Suites Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.338000,G5_Turismo_Hoteleria,Lucas-Cheuque,86063,$86.063,Sur
+Novotel Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.362000,G5_Turismo_Hoteleria,Lucas-Cheuque,109956,$109.956,Sur
+ibis Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.386000,G5_Turismo_Hoteleria,Lucas-Cheuque,69562,$69.562,Sur
+Gran Hotel Vicente Costanera,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.409000,G5_Turismo_Hoteleria,Lucas-Cheuque,89012,$89.012,Sur
+Hostal Copiapó Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.434000,G5_Turismo_Hoteleria,Lucas-Cheuque,38080,$38.080,Sur
+Hotel Le Mirage,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.458000,G5_Turismo_Hoteleria,Lucas-Cheuque,53312,$53.312,Sur
+Hotel Diego de Almagro Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.482000,G5_Turismo_Hoteleria,Lucas-Cheuque,96611,$96.611,Sur
+Hotel Don Luis Puerto Montt,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.505000,G5_Turismo_Hoteleria,Lucas-Cheuque,109198,$109.198,Sur
+Casona Alemana,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.534000,G5_Turismo_Hoteleria,Lucas-Cheuque,52780,$52.780,Sur
+Hotel Antupiren,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.559000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Sur
+Hotel Diego de Almagro Castro,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.585000,G5_Turismo_Hoteleria,Lucas-Cheuque,114240,$114.240,Sur
+Islanet Hostel & Bar,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.630000,G5_Turismo_Hoteleria,Lucas-Cheuque,46274,$46.274,Sur
+Hotel Apart Colón,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.662000,G5_Turismo_Hoteleria,Lucas-Cheuque,94143,$94.143,Sur
+Hotel Vista Mar,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.689000,G5_Turismo_Hoteleria,Lucas-Cheuque,64877,$64.877,Sur
+Hotel Esmeralda,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.738000,G5_Turismo_Hoteleria,Lucas-Cheuque,91111,$91.111,Sur
+Hotel Unicornio Azul,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.770000,G5_Turismo_Hoteleria,Lucas-Cheuque,80920,$80.920,Sur
+Hostal Fx,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.798000,G5_Turismo_Hoteleria,Lucas-Cheuque,31733,$31.733,Sur
+Hostal Torre de Babel,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.818000,G5_Turismo_Hoteleria,Lucas-Cheuque,37784,$37.784,Sur
+Tungulú - Hotel Boutique & Cabañas,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.841000,G5_Turismo_Hoteleria,Lucas-Cheuque,125686,$125.686,Sur
+Hostal Santa Fe,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.866000,G5_Turismo_Hoteleria,Lucas-Cheuque,35700,$35.700,Sur
+Departamentos Egaña,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.893000,G5_Turismo_Hoteleria,Lucas-Cheuque,42311,$42.311,Sur
+Enjoy Chiloé,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.921000,G5_Turismo_Hoteleria,Lucas-Cheuque,146630,$146.630,Sur
+Hotel Nuna,Puerto Montt,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:38.959000,G5_Turismo_Hoteleria,Lucas-Cheuque,34907,$34.907,Sur
+Hotel Diego de Almagro Coyhaique,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.427000,G5_Turismo_Hoteleria,Lucas-Cheuque,115651,$115.651,Sur
+Madero Aysen Aparthotel,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.449000,G5_Turismo_Hoteleria,Lucas-Cheuque,103398,$103.398,Sur
+Entre Cumbres Apart Hotel,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.483000,G5_Turismo_Hoteleria,Lucas-Cheuque,127607,$127.607,Sur
+Nómades Hotel Boutique,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.512000,G5_Turismo_Hoteleria,Lucas-Cheuque,190401,$190.401,Sur
+Hostal Viento Sur,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.537000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Sur
+The Patagonian Lodge,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.560000,G5_Turismo_Hoteleria,Lucas-Cheuque,159200,$159.200,Sur
+Patagon Backpackers,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.583000,G5_Turismo_Hoteleria,Lucas-Cheuque,42269,$42.269,Sur
+Hostal Casa Arrayán,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.604000,G5_Turismo_Hoteleria,Lucas-Cheuque,74045,$74.045,Sur
+Casa Balmaceda Backpackers,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.624000,G5_Turismo_Hoteleria,Lucas-Cheuque,54740,$54.740,Sur
+Pura Hotel,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.644000,G5_Turismo_Hoteleria,Lucas-Cheuque,140000,$140.000,Sur
+Donde Lupe,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.666000,G5_Turismo_Hoteleria,Lucas-Cheuque,57120,$57.120,Sur
+La casona de don Juan,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.688000,G5_Turismo_Hoteleria,Lucas-Cheuque,48552,$48.552,Sur
+Hotel Loyola,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.708000,G5_Turismo_Hoteleria,Lucas-Cheuque,74045,$74.045,Sur
+Hostal Uruz,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.730000,G5_Turismo_Hoteleria,Lucas-Cheuque,97104,$97.104,Sur
+Roble Austral Hostal,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.751000,G5_Turismo_Hoteleria,Lucas-Cheuque,88896,$88.896,Sur
+Ventisca Sur,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.772000,G5_Turismo_Hoteleria,Lucas-Cheuque,52128,$52.128,Sur
+Hostal Boutique 'Maryluz',Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.794000,G5_Turismo_Hoteleria,Lucas-Cheuque,58178,$58.178,Sur
+Calafate Apart Hotel,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.816000,G5_Turismo_Hoteleria,Lucas-Cheuque,100489,$100.489,Sur
+La Ruta de Aysén,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.838000,G5_Turismo_Hoteleria,Lucas-Cheuque,51126,$51.126,Sur
+Cabañas Kuyen,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.863000,G5_Turismo_Hoteleria,Lucas-Cheuque,82824,$82.824,Sur
+Cabañas Cerro Huemules,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.890000,G5_Turismo_Hoteleria,Lucas-Cheuque,116356,$116.356,Sur
+Hospedaje Bopphouse,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.918000,G5_Turismo_Hoteleria,Lucas-Cheuque,80021,$80.021,Sur
+Departamentos Km 5,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.940000,G5_Turismo_Hoteleria,Lucas-Cheuque,79334,$79.334,Sur
+Apartamento Bordeluna,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.962000,G5_Turismo_Hoteleria,Lucas-Cheuque,116356,$116.356,Sur
+Cabañas Lago Elizalde,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:56.983000,G5_Turismo_Hoteleria,Lucas-Cheuque,105778,$105.778,Sur
+Cabañas Antü 1,Coyhaique,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:06:57.005000,G5_Turismo_Hoteleria,Lucas-Cheuque,75030,$75.030,Sur
+Weskar Lodge Hotel,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.805000,G5_Turismo_Hoteleria,Lucas-Cheuque,151051,$151.051,Sur
+Lady Florence Dixie,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.831000,G5_Turismo_Hoteleria,Lucas-Cheuque,114240,$114.240,Sur
+Hotel Altiplanico Puerto Natales,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.856000,G5_Turismo_Hoteleria,Lucas-Cheuque,148089,$148.089,Sur
+Hotel Costaustralis,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.886000,G5_Turismo_Hoteleria,Lucas-Cheuque,119507,$119.507,Sur
+Hostal America en Puerto Natales,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.909000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Sur
+The Singular Patagonia,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.931000,G5_Turismo_Hoteleria,Lucas-Cheuque,581780,$581.780,Sur
+Hotel Simple Patagonia,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.954000,G5_Turismo_Hoteleria,Lucas-Cheuque,349068,$349.068,Sur
+Hotel Capitán Eberhard,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:14.986000,G5_Turismo_Hoteleria,Lucas-Cheuque,93356,$93.356,Sur
+Cabañas Ultima Esperanza,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.049000,G5_Turismo_Hoteleria,Lucas-Cheuque,60777,$60.777,Sur
+Hotel Big Sur,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.083000,G5_Turismo_Hoteleria,Lucas-Cheuque,121010,$121.010,Sur
+Hotel Vendaval,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.101000,G5_Turismo_Hoteleria,Lucas-Cheuque,142801,$142.801,Sur
+Natalino Hotel Patagonia,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.119000,G5_Turismo_Hoteleria,Lucas-Cheuque,177707,$177.707,Sur
+Vinnhaus,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.138000,G5_Turismo_Hoteleria,Lucas-Cheuque,218961,$218.961,Sur
+Noi Indigo Patagonia,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.160000,G5_Turismo_Hoteleria,Lucas-Cheuque,120365,$120.365,Sur
+Hotel Milodon,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.190000,G5_Turismo_Hoteleria,Lucas-Cheuque,68756,$68.756,Sur
+Hotel Costanera,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.215000,G5_Turismo_Hoteleria,Lucas-Cheuque,206310,$206.310,Sur
+Arte Brisa Hostal Boutique,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.239000,G5_Turismo_Hoteleria,Lucas-Cheuque,94037,$94.037,Sur
+Hotel Glaciares,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.261000,G5_Turismo_Hoteleria,Lucas-Cheuque,61827,$61.827,Sur
+Hostal Andes Patagónicos,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.283000,G5_Turismo_Hoteleria,Lucas-Cheuque,105778,$105.778,Sur
+Xalpen B&B,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.310000,G5_Turismo_Hoteleria,Lucas-Cheuque,71929,$71.929,Sur
+Hostal Alcázar,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.333000,G5_Turismo_Hoteleria,Lucas-Cheuque,84157,$84.157,Sur
+El Establo,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.357000,G5_Turismo_Hoteleria,Lucas-Cheuque,116300,$116.300,Sur
+Hotel Río Rubens,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.385000,G5_Turismo_Hoteleria,Lucas-Cheuque,158667,$158.667,Sur
+Agostini Hotel,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.416000,G5_Turismo_Hoteleria,Lucas-Cheuque,121645,$121.645,Sur
+Hostal Los Pioneros,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.439000,G5_Turismo_Hoteleria,Lucas-Cheuque,74045,$74.045,Sur
+Hostal Camino de Santiago,Puerto Natales,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:15.462000,G5_Turismo_Hoteleria,Lucas-Cheuque,148925,$148.925,Sur
+Hotel Diego de Almagro Punta Arenas,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:34.910000,G5_Turismo_Hoteleria,Lucas-Cheuque,123408,$123.408,Sur
+Hotel Cabo De Hornos,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:34.937000,G5_Turismo_Hoteleria,Lucas-Cheuque,148089,$148.089,Sur
+Hotel Plaza,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:34.964000,G5_Turismo_Hoteleria,Lucas-Cheuque,100119,$100.119,Sur
+Patagonia Hotel & Apart Suite,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:34.990000,G5_Turismo_Hoteleria,Lucas-Cheuque,121645,$121.645,Sur
+Hotel Isla Rey Jorge,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.022000,G5_Turismo_Hoteleria,Lucas-Cheuque,114240,$114.240,Sur
+Apart Hotel Endurance,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.041000,G5_Turismo_Hoteleria,Lucas-Cheuque,111067,$111.067,Sur
+Hotel Los Navegantes,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.058000,G5_Turismo_Hoteleria,Lucas-Cheuque,83776,$83.776,Sur
+Hostal Boutique Patagonia Mística,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.077000,G5_Turismo_Hoteleria,Lucas-Cheuque,72828,$72.828,Sur
+Hotel Boutique La Yegua Loca,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.100000,G5_Turismo_Hoteleria,Lucas-Cheuque,149927,$149.927,Sur
+Apart Hotel Quillango,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.126000,G5_Turismo_Hoteleria,Lucas-Cheuque,116356,$116.356,Sur
+Hotel Carpa Manzano,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.151000,G5_Turismo_Hoteleria,Lucas-Cheuque,99960,$99.960,Sur
+Almasur Punta Arenas,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.184000,G5_Turismo_Hoteleria,Lucas-Cheuque,110583,$110.583,Sur
+Hostal Hielo Sur,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.212000,G5_Turismo_Hoteleria,Lucas-Cheuque,68333,$68.333,Sur
+Hostal Fernando de Magalhaes,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.236000,G5_Turismo_Hoteleria,Lucas-Cheuque,80920,$80.920,Sur
+Hotel Patagonia B&B,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.258000,G5_Turismo_Hoteleria,Lucas-Cheuque,84623,$84.623,Sur
+Haiken Hostal,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.283000,G5_Turismo_Hoteleria,Lucas-Cheuque,69591,$69.591,Sur
+Hotel Albatros,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.306000,G5_Turismo_Hoteleria,Lucas-Cheuque,98903,$98.903,Sur
+Hostal Cordillera,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.332000,G5_Turismo_Hoteleria,Lucas-Cheuque,78223,$78.223,Sur
+Hotel Boutique Restaurant Kran Kreen,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.357000,G5_Turismo_Hoteleria,Lucas-Cheuque,120034,$120.034,Sur
+Hotel Mercurio,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.380000,G5_Turismo_Hoteleria,Lucas-Cheuque,65450,$65.450,Sur
+Chalet Chapital Punta Arenas,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.402000,G5_Turismo_Hoteleria,Lucas-Cheuque,71400,$71.400,Sur
+Hostal Host Patagonia,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.427000,G5_Turismo_Hoteleria,Lucas-Cheuque,40460,$40.460,Sur
+Hostal Balmaceda,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.452000,G5_Turismo_Hoteleria,Lucas-Cheuque,31733,$31.733,Sur
+Hostal Boutique Terra Antarctica,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.567000,G5_Turismo_Hoteleria,Lucas-Cheuque,63467,$63.467,Sur
+Hostal Aventura Austral,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.637000,G5_Turismo_Hoteleria,Lucas-Cheuque,31733,$31.733,Sur
+Hain Casa Hotel,Punta Arenas,Kayak.cl,2026-04-23,2026-04-26,2026-04-22 15:07:35.656000,G5_Turismo_Hoteleria,Lucas-Cheuque,81778,$81.778,Sur
