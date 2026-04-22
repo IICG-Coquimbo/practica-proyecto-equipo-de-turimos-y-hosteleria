@@ -1,4 +1,4 @@
-3services:
+services:
   # Contenedor principal con Jupyter, Spark y entorno visual
   workspace:
     build: .                      # Construye la imagen usando el Dockerfile local
