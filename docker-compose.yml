@@ -12,6 +12,7 @@ services:
       - JUPYTER_ENABLE_LAB=yes
     dns:
       - 8.8.8.8
+      - 8.8.4.4
     user: root
     restart: always
     networks:
@@ -23,11 +24,13 @@ services:
     ports:
       - "8081:8081"
     environment:
-      - ME_CONFIG_MONGODB_URL=mongodb+srv://lucascheuque_db_user:27032005@cluster0.tjvu2a3.mongodb.net/?retryWrites=true&w=majority
+      - ME_CONFIG_MONGODB_URL=mongodb://lucascheuque_db_user:27032005@ac-apanrvu-shard-00-00.tjvu2a3.mongodb.net:27017,ac-apanrvu-shard-00-01.tjvu2a3.mongodb.net:27017,ac-apanrvu-shard-00-02.tjvu2a3.mongodb.net:27017/?authSource=admin&replicaSet=atlas-rjf6rx-shard-0&tls=true
       - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
-      - VC_NODE_TLS_REJECT_UNAUTHORIZED=0
+      - ME_CONFIG_BASICAUTH=false
+      - NODE_TLS_REJECT_UNAUTHORIZED=0
     dns:
       - 8.8.8.8
+      - 8.8.4.4
     restart: always
     networks:
       - bigdata_net
