@@ -1,6 +1,9 @@
-# BigData_IICG_2026_Actualizado
-Este respositorio sirve para el trabajo práctico de la asignatura Big Data. 
+<<<<<<< HEAD
+=======
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23471725&assignment_repo_type=AssignmentRepo)
+>>>>>>> b152da8d22b3610a2b079ef754b163829aeb9534
 
+# BigData_IICG_2026_Actualizado Turismo y hosteleria 
 Problemática:
 Cuando un turista busca alojamiento en Chile, debe revisar varias plataformas por separado para intentar encontrar la mejor opción. El problema es que los precios varían considerablemente entre plataformas para el mismo destino y ciudad, y no existe una forma simple de entender esas diferencias. Si bien existen comparadores como Trivago o Google Hotels, estos están orientados a la reserva directa y no permiten analizar el comportamiento real del mercado de alojamiento chileno. Tampoco muestran diferencias por zona geográfica ni distinguen el tipo de alojamiento que se está evaluando. Las agencias de turismo y los propios establecimientos tampoco cuentan con información estructurada para entender cómo varían los precios entre plataformas y ciudades, lo que dificulta tomar decisiones informadas.
 
@@ -8,6 +11,7 @@ Propuesta de Valor:
 La idea es usar scraping para extraer precios de alojamientos desde las principales plataformas que operan en Chile, como Booking,Kayak, Airbnb, Hotelscombined. Centralizando toda esa información en una base de datos en MongoDB. Con esto se podrá sugerir al turista cuál plataforma ofrece mejores opciones según el destino que quiere visitar, considerando la zona geográfica del país, ya sea Norte, Centro o Sur de Chile. El objetivo no es solo guardar datos, sino poder responder con información real a preguntas como: ¿en qué plataforma conviene buscar alojamiento en Santiago?, ¿qué zona ofrece mejor relación precio-calidad?, ¿cuál es el rango de precios promedio según el tipo de alojamiento y ciudad? De esta forma el sistema se convierte en una herramienta de apoyo para la decisión del turista.
 
 Análisis de las 4V:
+
 Volumen: Se necesitan más de 3.000 registros porque el precio de un alojamiento no es un dato único, varía según la ciudad, la plataforma, la zona geográfica y la categoría del establecimiento. Con una muestra pequeña, la mayoría de los datos probablemente serían de Santiago y no representarían el mercado de alojamiento del resto del país. Con 500 registros por integrante se logra una distribución suficiente entre ciudades del Norte, Centro y Sur de Chile para que las sugerencias tengan validez estadística.
 
 Variedad: El precio solo no alcanza para sugerir alojamientos de forma justa. Un hotel cinco estrellas, un hostal o un departamento pueden aparecer en la misma búsqueda pero no son comparables. Por eso se extraen 8 etiquetas: nombre del alojamiento, precio por noche, ciudad, estrellas, tipo de alojamiento, puntuación, fecha de captura y URL de origen. Cada una aporta el contexto necesario para que la sugerencia sea relevante y útil para el turista.
