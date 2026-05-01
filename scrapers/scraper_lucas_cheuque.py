@@ -149,3 +149,4 @@ def ejecutar_extraccion():
 
     driver.quit()
     return datos_finales
+    # Ultima actualizacion: Mayo 2025 - Semana 8
