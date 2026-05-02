@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23471725&assignment_repo_type=AssignmentRepo)
->>>>>>> b152da8d22b3610a2b079ef754b163829aeb9534
-
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
 Recomendacion de alojamiento en chile: 
 Scraping de precios de las principales plataformas de alojamiento que operan en Chile, centralizado en MongoDB Atlas para apoyar lad decisiones de los turista.
@@ -18,6 +13,12 @@ Análisis de las 4V:
 Volumen: Se necesitan más de 3.000 registros porque el precio de un alojamiento no es un dato único, varía según la ciudad, la plataforma, la zona geográfica y la categoría del establecimiento. Con una muestra pequeña, la mayoría de los datos probablemente serían de Santiago y no representarían el mercado de alojamiento del resto del país. Con 500 registros por integrante se logra una distribución suficiente entre ciudades del Norte, Centro y Sur de Chile para que las sugerencias tengan validez estadística.
 
 Variedad: El precio solo no alcanza para sugerir alojamientos de forma justa. Un hotel cinco estrellas, un hostal o un departamento pueden aparecer en la misma búsqueda pero no son comparables. Por eso se extraen 8 etiquetas: nombre del alojamiento, precio por noche, ciudad, estrellas, tipo de alojamiento, puntuación, fecha de captura y URL de origen. Cada una aporta el contexto necesario para que la sugerencia sea relevante y útil para el turista.
+
+Veracidad: Para asegurar que los datos capturados sean confiables, los precios se guardan como valores numéricos descartando símbolos de moneda o caracteres extraños. Se eliminan registros con campos vacíos o precios iguales a cero. Cada registro incluye la URL exacta de donde se extrajo la información, permitiendo verificar el origen del dato en cualquier momento. Además, si un alojamiento ya existe en la base de datos, el sistema actualiza su precio en lugar de crear un duplicado, manteniendo la información limpia y confiable.
+
+Velocidad: Los precios de alojamiento cambian constantemente, por lo que los datos capturados representan el momento exacto en que se ejecutó el scraper. Si en algún momento se necesita actualizar la información, el scraper puede volver a ejecutarse sin problema, ya que está diseñado para actualizar precios existentes en vez de crear registros nuevos, garantizando que la sugerencia que recibe el turista esté siempre basada en datos actuales.
+
+
 
 Hitos 1 infraestructura y captura de datos 
 
@@ -35,8 +36,13 @@ Tabla de Atributos por Integrante
 | Bastián Bravo | Google Hotels | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
 | Juan Pablo Salas | Trip.com | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
 
+Evidencia 1 - Docker Stats
+![Docker Stats](./evidencias/IMG-20260501-WA0145.jpg)
+
+Evidencia 2 - MongoDB Count
+![MongoDB Count](./evidencias/IMG-20260501-WA0146.jpg)
 
 
-Veracidad: Para asegurar que los datos capturados sean confiables, los precios se guardan como valores numéricos descartando símbolos de moneda o caracteres extraños. Se eliminan registros con campos vacíos o precios iguales a cero. Cada registro incluye la URL exacta de donde se extrajo la información, permitiendo verificar el origen del dato en cualquier momento. Además, si un alojamiento ya existe en la base de datos, el sistema actualiza su precio en lugar de crear un duplicado, manteniendo la información limpia y confiable.
 
-Velocidad: Los precios de alojamiento cambian constantemente, por lo que los datos capturados representan el momento exacto en que se ejecutó el scraper. Si en algún momento se necesita actualizar la información, el scraper puede volver a ejecutarse sin problema, ya que está diseñado para actualizar precios existentes en vez de crear registros nuevos, garantizando que la sugerencia que recibe el turista esté siempre basada en datos actuales.
+
+
