@@ -1,13 +1,13 @@
 import sys
 sys.path.append("/home/jovyan/work")
 
-from scrapers.scraper_lucas_cheuque import ejecutar_extraccion as scraper_lucas
+#from scrapers.scraper_lucas_cheuque import ejecutar_extraccion as scraper_lucas
 from scrapers.scraper_camila_rojas import ejecutar_extraccion as scraper_camila
-from scrapers.scraper_juan_salas import ejecutar_extraccion as scraper_juan
-from scrapers.scraper_angelo_rojo import ejecutar_extraccion as scraper_angelo
-from scrapers.scraper_matias_gonzalez import ejecutar_extraccion as scraper_matias
-from scrapers.scraper_martina_cortes import ejecutar_extraccion as scraper_martina
-from scrapers.scraper_bastian import ejecutar_extraccion as scraper_bastian
+#from scrapers.scraper_juan_salas import ejecutar_extraccion as scraper_juan
+#from scrapers.scraper_angelo_rojo import ejecutar_extraccion as scraper_angelo
+#from scrapers.scraper_matias_gonzalez import ejecutar_extraccion as scraper_matias
+#from scrapers.scraper_martina_cortes import ejecutar_extraccion as scraper_martina
+#from scrapers.scraper_bastian import ejecutar_extraccion as scraper_bastian
 
 from pymongo import MongoClient
 import certifi
@@ -28,13 +28,13 @@ print()
 
 # ========== EJECUTAR TODOS LOS SCRAPERS ==========
 scrapers = [
-    (scraper_lucas, "Lucas Cheuque", "Kayak.cl"),
+   # (scraper_lucas, "Lucas Cheuque", "Kayak.cl"),
     (scraper_camila, "Camila Rojas", "Booking.com"),
-    (scraper_juan, "Juan Salas", "Trip.com"),
-    (scraper_angelo, "Angelo Rojo", "Denomades.com"),
-    (scraper_matias, "Matias Gonzalez", "Airbnb.cl"),
-    (scraper_martina, "Martina Cortes", "HotelsCombined"),
-    (scraper_bastian, "Bastian Bravo", "Google Hotels"),
+    #(scraper_juan, "Juan Salas", "Trip.com"),
+   # (scraper_angelo, "Angelo Rojo", "Denomades.com"),
+   # (scraper_matias, "Matias Gonzalez", "Airbnb.cl"),
+   # (scraper_martina, "Martina Cortes", "HotelsCombined"),
+   # (scraper_bastian, "Bastian Bravo", "Google Hotels"),
 ]
 
 total_general = 0
