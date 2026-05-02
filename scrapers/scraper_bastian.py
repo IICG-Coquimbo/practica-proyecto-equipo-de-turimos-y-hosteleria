@@ -1,121 +1,159 @@
 from datetime import datetime
-from pymongo import MongoClient
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 import time
-import random
 
+def determinar_zona(ciudad):
+    if ciudad in ['Arica', 'Iquique', 'Calama', 'Antofagasta']:
+        return 'Norte Grande'
+    elif ciudad in ['Copiapo', 'La Serena']:
+        return 'Norte Chico'
+    elif ciudad in ['Valparaiso', 'Vina del Mar', 'Santiago', 'Rancagua']:
+        return 'Centro'
+    elif ciudad in ['Talca', 'Chillan', 'Concepcion', 'Temuco']:
+        return 'Centro Sur'
+    elif ciudad in ['Valdivia', 'Puerto Varas', 'Puerto Montt']:
+        return 'Los Lagos'
+    else:
+        return 'Patagonia'
+
+def limpiar_precio(texto):
+    numeros = ''
+    for c in texto:
+        if c.isdigit():
+            numeros += c
+    if not numeros:
+        return None
+    precio = float(numeros)
+    if precio < 5000 or precio > 10000000:
+        return None
+    return precio
+
+def configurar_driver():
+    opciones = Options()
+    opciones.add_argument('--headless')
+    opciones.add_argument('--no-sandbox')
+    opciones.add_argument('--disable-dev-shm-usage')
+    opciones.add_argument('--disable-gpu')
+    opciones.add_argument('--window-size=1920,1080')
+    opciones.add_argument('--disable-blink-features=AutomationControlled')
+    opciones.add_experimental_option('excludeSwitches', ['enable-automation'])
+    opciones.add_experimental_option('useAutomationExtension', False)
+    opciones.add_argument(
+        'user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    )
+    opciones.binary_location = '/usr/bin/brave-browser'
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager(driver_version="147.0.7727.137").install()),
+        options=opciones
+    )
+    driver.execute_script(
+        "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    )
+    return driver
 
 def ejecutar_extraccion():
     datos_finales = []
 
-    # ==========================================
-    # CONEXIÓN MONGODB
-    # ==========================================
-    try:
-        client = MongoClient("mongodb://bigdata_mongodb:27017/")
-        db = client["proyecto_bastian_final"]
-        coleccion = db["datos_hoteleros"]
+    ciudades = [
+        'Arica', 'Iquique', 'Calama', 'Antofagasta',
+        'Copiapo', 'La Serena',
+        'Valparaiso', 'Vina del Mar', 'Santiago', 'Rancagua',
+        'Talca', 'Chillan', 'Concepcion', 'Temuco',
+        'Valdivia', 'Puerto Varas', 'Puerto Montt',
+        'Coyhaique', 'Puerto Natales', 'Punta Arenas'
+    ]
 
-        print(">>> Conexión Exitosa. Proyecto de Bastián Bravo listo para entrega.")
+    for ciudad in ciudades:
+        url = (
+            f'https://www.google.com/travel/hotels?'
+            f'q=hoteles+en+{ciudad.lower().replace(" ", "+")}+chile'
+        )
 
-    except Exception as e:
-        print(f"Error MongoDB: {e}")
-        return datos_finales
+        print(f'\n{"="*50}')
+        print(f'Ciudad: {ciudad}')
+        print(f'{"="*50}')
 
-    # ==========================================
-    # DATOS SIMULADOS
-    # ==========================================
-    datos_simulados = {
-        "Viña del Mar": [
-            "Hotel Enjoy", "Sheraton Miramar", "Hotel del Mar",
-            "Gala Hotel", "Hotel Marina del Rey",
-            "Hotel Boutique Castillo", "Hotel Pullman",
-            "Novotel Viña", "Hotel San Martín",
-            "Hotel Monterilla"
-        ],
+        driver = None
+        try:
+            driver = configurar_driver()
+            driver.get(url)
+            time.sleep(4)
 
-        "Santiago": [
-            "Hotel W", "Ritz-Carlton", "Plaza San Francisco",
-            "Luciano K", "Hotel Magnolia",
-            "Mandarin Oriental", "Grand Hyatt",
-            "Hotel Tiara", "Crowne Plaza",
-            "Hotel Kennedy"
-        ],
+            for _ in range(2):
+                driver.execute_script("window.scrollBy(0, 800);")
+                time.sleep(1)
 
-        "La Serena": [
-            "Hotel Enjoy Coquimbo", "Hotel Club La Serena",
-            "La Serena Golf", "Hotel Francisco de Aguirre",
-            "Hotel Costa Real", "Hotel Boutique El Escorial",
-            "Apart Hotel Vegas", "Cabañas Campanario",
-            "Hotel Serena Suite", "Hotel Mediterráneo"
-        ]
-    }
+            nombres = []
+            todos_h2 = driver.find_elements(By.TAG_NAME, 'h2')
+            for h2 in todos_h2:
+                texto = h2.text.strip()
+                if texto and len(texto) > 5 and not any(x in texto.lower() for x in [
+                    'sponsored', 'search', 'filter', 'sort', 'set your dates',
+                    'popular', 'patrocinado', 'buscar'
+                ]):
+                    nombres.append(texto)
 
-    # ==========================================
-    # FUNCIÓN SCRAPER
-    # ==========================================
-    def scraper_bastian_final(ciudad):
+            precios = []
+            for selector in ["//span[contains(text(), '$')]", "//span[contains(text(), 'CLP')]"]:
+                elementos = driver.find_elements(By.XPATH, selector)
+                for elem in elementos:
+                    texto = elem.text.strip()
+                    if texto and len(texto) < 30:
+                        precio = limpiar_precio(texto)
+                        if precio:
+                            precios.append(precio)
 
-        print(f"\n[Bastián] Iniciando extracción para: {ciudad}")
-        time.sleep(1)
+            guardados = 0
+            sin_precio = 0
 
-        hoteles = datos_simulados.get(ciudad, [])
-        guardados = 0
+            for i in range(len(nombres)):
+                try:
+                    nombre = nombres[i]
+                    precio = precios[i] if i < len(precios) else 0.0
 
-        for nombre in hoteles:
+                    if not precio:
+                        sin_precio += 1
+                        print(f'  [{i+1}] SIN PRECIO: {nombre[:40]}')
+                        precio = 0.0
+                    else:
+                        print(f'  [{i+1}] ${precio:,.0f} | {nombre[:40]}')
 
-            try:
-                precio = random.randint(55000, 180000)
-                estrellas = random.randint(3, 5)
+                    datos_finales.append({
+                        'nombre_hotel': nombre,
+                        'precio_noche': precio,
+                        'ciudad': ciudad,
+                        'zona_geografica': determinar_zona(ciudad),
+                        'estrellas': 0,
+                        'tipo_alojamiento': 'hotel',
+                        'puntuacion': None,
+                        'fecha_captura': datetime.now(),
+                        'url_origen': url,
+                        'plataforma': 'Google Hotels',
+                        'integrante': 'bastian-bravo',
+                        'grupo': 'G5_Turismo_Hoteleria'
+                    })
+                    guardados += 1
 
-                registro = {
-                    "hotel": nombre,
-                    "nombre_hotel": nombre,
-                    "ciudad": ciudad,
-                    "precio_noche_clp": precio,
-                    "precio": precio,
-                    "estrellas": estrellas,
-                    "fecha_captura": datetime.now(),
-                    "fecha": datetime.now(),
-                    "integrante": "bastian-bravo",
-                    "grupo": "G5_Turismo_Hoteleria",
-                    "estado": "Sincronizado",
-                    "fuente": "datos_simulados"
-                }
+                except Exception as e:
+                    print(f'  Error alojamiento {i+1}: {str(e)[:50]}')
+                    continue
 
-                # guardar en mongo
-                coleccion.update_one(
-                    {"hotel": nombre, "ciudad": ciudad},
-                    {"$set": registro},
-                    upsert=True
-                )
+            print(f'\nResumen {ciudad}:')
+            print(f'  Guardados:  {guardados}')
+            print(f'  Sin precio: {sin_precio}')
 
-                datos_finales.append(registro)
+        except Exception as e:
+            print(f'Error general en {ciudad}: {e}')
+        finally:
+            if driver:
+                driver.quit()
 
-                print(f"  [DB] {nombre} | ${precio:,}")
-                guardados += 1
+        time.sleep(5)
 
-            except:
-                continue
-
-        return guardados
-
-    # ==========================================
-    # MAIN
-    # ==========================================
-    destinos = ["Viña del Mar", "Santiago", "La Serena"]
-
-    print("=" * 60)
-    print("SISTEMA BIG DATA - RESPONSABLE: BASTIÁN BRAVO")
-    print("=" * 60)
-
-    for ciudad in destinos:
-        total = scraper_bastian_final(ciudad)
-        print(f">>> {ciudad}: {total} registros cargados.")
-
-    print("\n" + "=" * 60)
-    print("PROCESO FINALIZADO EXITOSAMENTE")
-    print("Colección: datos_hoteleros")
-    print("Responsable: Bastián Bravo")
-    print("=" * 60)
-
+    print(f'\nTotal registros extraidos: {len(datos_finales)}')
     return datos_finales
