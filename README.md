@@ -4,6 +4,9 @@
 >>>>>>> b152da8d22b3610a2b079ef754b163829aeb9534
 
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
+Recomendacion de alojamiento en chile: 
+Scraping de precios de las principales plataformas de alojamiento que operan en Chile, centralizado en MongoDB Atlas para apoyar lad decisiones de los turista.
+
 Problemática:
 Cuando un turista busca alojamiento en Chile, debe revisar varias plataformas por separado para intentar encontrar la mejor opción. El problema es que los precios varían considerablemente entre plataformas para el mismo destino y ciudad, y no existe una forma simple de entender esas diferencias. Si bien existen comparadores como Trivago o Google Hotels, estos están orientados a la reserva directa y no permiten analizar el comportamiento real del mercado de alojamiento chileno. Tampoco muestran diferencias por zona geográfica ni distinguen el tipo de alojamiento que se está evaluando. Las agencias de turismo y los propios establecimientos tampoco cuentan con información estructurada para entender cómo varían los precios entre plataformas y ciudades, lo que dificulta tomar decisiones informadas.
 
@@ -15,6 +18,24 @@ Análisis de las 4V:
 Volumen: Se necesitan más de 3.000 registros porque el precio de un alojamiento no es un dato único, varía según la ciudad, la plataforma, la zona geográfica y la categoría del establecimiento. Con una muestra pequeña, la mayoría de los datos probablemente serían de Santiago y no representarían el mercado de alojamiento del resto del país. Con 500 registros por integrante se logra una distribución suficiente entre ciudades del Norte, Centro y Sur de Chile para que las sugerencias tengan validez estadística.
 
 Variedad: El precio solo no alcanza para sugerir alojamientos de forma justa. Un hotel cinco estrellas, un hostal o un departamento pueden aparecer en la misma búsqueda pero no son comparables. Por eso se extraen 8 etiquetas: nombre del alojamiento, precio por noche, ciudad, estrellas, tipo de alojamiento, puntuación, fecha de captura y URL de origen. Cada una aporta el contexto necesario para que la sugerencia sea relevante y útil para el turista.
+
+Hitos 1 infraestructura y captura de datos 
+
+Comando para ejecutar:
+docker-compose up -d
+Tabla de Atributos por Integrante
+
+| Integrante | Plataforma | Etiquetas extraídas |
+|---|---|---|
+| Camila Rojas | Booking.com | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Matías González | Airbnb | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Lucas Cheuque | Kayak | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Martina Cortés | HotelsCombined | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Angelo Rojo | Denomades | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Bastián Bravo | Google Hotels | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Juan Pablo Salas | Trip.com | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+
+
 
 Veracidad: Para asegurar que los datos capturados sean confiables, los precios se guardan como valores numéricos descartando símbolos de moneda o caracteres extraños. Se eliminan registros con campos vacíos o precios iguales a cero. Cada registro incluye la URL exacta de donde se extrajo la información, permitiendo verificar el origen del dato en cualquier momento. Además, si un alojamiento ya existe en la base de datos, el sistema actualiza su precio en lugar de crear un duplicado, manteniendo la información limpia y confiable.
 
