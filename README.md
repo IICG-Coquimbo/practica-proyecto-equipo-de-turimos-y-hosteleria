@@ -1,9 +1,7 @@
-<<<<<<< HEAD
-=======
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23471725&assignment_repo_type=AssignmentRepo)
->>>>>>> b152da8d22b3610a2b079ef754b163829aeb9534
-
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
+Recomendacion de alojamiento en chile: 
+Scraping de precios de las principales plataformas de alojamiento que operan en Chile, centralizado en MongoDB Atlas para apoyar lad decisiones de los turista.
+
 Problemática:
 Cuando un turista busca alojamiento en Chile, debe revisar varias plataformas por separado para intentar encontrar la mejor opción. El problema es que los precios varían considerablemente entre plataformas para el mismo destino y ciudad, y no existe una forma simple de entender esas diferencias. Si bien existen comparadores como Trivago o Google Hotels, estos están orientados a la reserva directa y no permiten analizar el comportamiento real del mercado de alojamiento chileno. Tampoco muestran diferencias por zona geográfica ni distinguen el tipo de alojamiento que se está evaluando. Las agencias de turismo y los propios establecimientos tampoco cuentan con información estructurada para entender cómo varían los precios entre plataformas y ciudades, lo que dificulta tomar decisiones informadas.
 
@@ -19,3 +17,32 @@ Variedad: El precio solo no alcanza para sugerir alojamientos de forma justa. Un
 Veracidad: Para asegurar que los datos capturados sean confiables, los precios se guardan como valores numéricos descartando símbolos de moneda o caracteres extraños. Se eliminan registros con campos vacíos o precios iguales a cero. Cada registro incluye la URL exacta de donde se extrajo la información, permitiendo verificar el origen del dato en cualquier momento. Además, si un alojamiento ya existe en la base de datos, el sistema actualiza su precio en lugar de crear un duplicado, manteniendo la información limpia y confiable.
 
 Velocidad: Los precios de alojamiento cambian constantemente, por lo que los datos capturados representan el momento exacto en que se ejecutó el scraper. Si en algún momento se necesita actualizar la información, el scraper puede volver a ejecutarse sin problema, ya que está diseñado para actualizar precios existentes en vez de crear registros nuevos, garantizando que la sugerencia que recibe el turista esté siempre basada en datos actuales.
+
+
+
+Hitos 1 infraestructura y captura de datos 
+
+Comando para ejecutar:
+docker-compose up -d
+Tabla de Atributos por Integrante
+
+| Integrante | Plataforma | Etiquetas extraídas |
+|---|---|---|
+| Camila Rojas | Booking.com | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Matías González | Airbnb | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Lucas Cheuque | Kayak | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Martina Cortés | HotelsCombined | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Angelo Rojo | Denomades | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Bastián Bravo | Google Hotels | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+| Juan Pablo Salas | Trip.com | nombre_hotel, precio_noche, ciudad, zona_geografica, estrellas, tipo_alojamiento, puntuacion, fecha_captura, url_origen, plataforma, integrante |
+
+Evidencia 1 - Docker Stats
+![Docker Stats](./evidencias/IMG-20260501-WA0145.jpg)
+
+Evidencia 2 - MongoDB Count
+![MongoDB Count](./evidencias/IMG-20260501-WA0146.jpg)
+
+
+
+
+
