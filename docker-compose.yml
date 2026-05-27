@@ -4,12 +4,12 @@ services:
     container_name: BigData_workspace
     ports:
       - "8888:8888"
-      - "6080:6080"
       - "4040:4040"
     volumes:
       - .:/home/jovyan/work
     environment:
       - JUPYTER_ENABLE_LAB=yes
+    command: start-notebook.sh --NotebookApp.token=''
     dns:
       - 8.8.8.8
       - 8.8.4.4
@@ -28,6 +28,7 @@ services:
       - ME_CONFIG_MONGODB_ENABLE_ADMIN=true
       - ME_CONFIG_BASICAUTH=false
       - NODE_TLS_REJECT_UNAUTHORIZED=0
+      - ME_CONFIG_MONGODB_SSL=true
     dns:
       - 8.8.8.8
       - 8.8.4.4
