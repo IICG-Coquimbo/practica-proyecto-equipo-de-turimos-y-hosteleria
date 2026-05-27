@@ -31,6 +31,7 @@ services:
     dns:
       - 8.8.8.8
       - 8.8.4.4
+    shm_size: "4gb"
     restart: always
     networks:
       - bigdata_net
