@@ -100,7 +100,7 @@ def ejecutar_extraccion():
         )
         opciones.binary_location = '/usr/bin/google-chrome-stable'
         driver = webdriver.Chrome(
-            service=Service('/home/jovyan/.wdm/drivers/chromedriver/linux64/147.0.7727.117/chromedriver-linux64/chromedriver'),
+            service=Service('/usr/bin/chromedriver'),
             options=opciones
         )
         driver.execute_script(

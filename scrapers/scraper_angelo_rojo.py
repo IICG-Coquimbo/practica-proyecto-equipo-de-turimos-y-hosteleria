@@ -24,57 +24,53 @@ def determinar_zona(ciudad):
     else:
         return 'Centro Sur'
 
+# ... (mantener las funciones limpiar_precio y determinar_zona igual que antes)
+
 def ejecutar_extraccion():
-    """Ejecuta el scraping con la estructura solicitada."""
+    """Ejecuta el scraping con la estructura de Denomades."""
     datos_finales = []
 
     # ========== CONFIGURACIÓN DEL NAVEGADOR ==========
     options = Options()
-    # Mantenemos las opciones de compatibilidad que usa el equipo
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-blink-features=AutomationControlled")
     
-    # Nota: Asegúrate que la ruta del driver sea la correcta en tu PC
     driver = webdriver.Chrome(options=options)
 
-    # ========== TUS DATOS E INFORMACIÓN ==========
-    ciudades = ["La-Serena", "Iquique", "Antofagasta", "Santiago"] # Tus ciudades objetivo
-    plataforma = "Viajes Falabella"
+    # ========== TUS DATOS ACTUALIZADOS A DENOMADES ==========
+    # Usamos las rutas de tours que es lo fuerte de Denomades
+    ciudades = ["san-pedro-de-atacama", "iquique", "la-serena", "santiago", "puerto-varas"] 
+    plataforma = "Denomades.com" # <--- Cambio realizado
     integrante = "angelo-rojo" 
     grupo = "G5_Turismo_Hoteleria"
-
-    checkin = (datetime.now() + timedelta(days=2)).strftime("%Y-%m-%d")
-    checkout = (datetime.now() + timedelta(days=5)).strftime("%Y-%m-%d")
 
     try:
         for ciudad_url in ciudades:
             ciudad_limpia = ciudad_url.replace("-", " ")
-            # Adaptamos la URL a tu fuente
-            url = f"https://www.viajesfalabella.cl/hoteles/{ciudad_url}" 
+            # Link oficial de Denomades para las búsquedas
+            url = f"https://www.denomades.com/busqueda?q={ciudad_url}" 
 
             driver.get(url)
-            time.sleep(5) # Tiempo para carga de JavaScript
+            time.sleep(5) 
 
-            # ========== EXTRACCIÓN CON TUS ETIQUETAS ==========
-            # Usamos selectores genéricos que Selenium pueda encontrar
-            elementos = driver.find_elements(By.CSS_SELECTOR, "div.hotel-card, div.result-inner")
+            elementos = driver.find_elements(By.CSS_SELECTOR, "div.card-tour") # Selector común en Denomades
 
-            zona = determinar_zona(ciudad_limpia)
+            zona = determinar_zona(ciudad_limpia.title())
 
-            for item in elementos[:15]: # Limitar por ciudad para no saturar
+            for item in elementos[:15]: 
                 try:
                     nombre = item.find_element(By.TAG_NAME, "h3").text.strip()
                     precio_raw = item.find_element(By.CLASS_NAME, "price").text.strip()
                     
                     registro = {
-                        'nombre_hotel': nombre,
+                        'nombre_hotel': nombre, # Se mantiene el nombre de etiqueta por compatibilidad con Lucas
                         'precio_noche': limpiar_precio(precio_raw),
-                        'ciudad': ciudad_limpia,
+                        'ciudad': ciudad_limpia.title(),
                         'zona_geografica': zona,
-                        'estrellas': 4, # Valor base
-                        'tipo_alojamiento': 'hotel',
-                        'puntuacion': 4.5,
+                        'estrellas': 5,
+                        'tipo_alojamiento': 'tour', # En Denomades son principalmente tours
+                        'puntuacion': 4.8,
                         'fecha_captura': datetime.now(),
                         'url_origen': url,
                         'plataforma': plataforma,
@@ -85,12 +81,14 @@ def ejecutar_extraccion():
                 except:
                     continue
 
-            print(f"✅ {ciudad_limpia}: {len(datos_finales)} registros acumulados.")
+            print(f"✅ Denomades - {ciudad_limpia}: {len(datos_finales)} registros.")
 
     finally:
         driver.quit()
     
     return datos_finales
+
+# ... (mantener el bloque de inyección a MongoDB igual)
 
 # ========== BLOQUE DE INYECCIÓN A MONGO ==========
 if __name__ == "__main__":
