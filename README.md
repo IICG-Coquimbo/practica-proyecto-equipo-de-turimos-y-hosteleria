@@ -6,12 +6,12 @@
 | Estudiante | Responsabilidad | Rama |
 |---|---|---|
 | Camila Rojas | Modelado No Supervisado: K-Means, Método del Codo, interpretación de clústeres | feature/Camila-rojas |
-| Martina Cortés | Análisis Descriptivo (EDA) | martina-cortes |
-| Bastian Bravo | Scraping y Captura de Datos | bastian-bravo |
-| Lucas Cheuque | Ingeniería de Datos y Pipeline | Lucas-Cheuque |
-| Juan Pablo Salas | Scraping y Captura de Datos | juan |
+| Martina Cortés | Análisis Descriptivo (EDA) | feature/martina-cortes |
+| Bastian Bravo | Scraping y Captura de Datos | feature/bastian-bravo |
+| Lucas Cheuque | Ingeniería de Datos y Pipeline | feature/Lucas-Cheuque |
+| Juan Pablo Salas | Scraping y Captura de Datos | feature/juan |
 | Angelo Rojo | Scraping y Captura de Datos | feature/Angelo-Rojo |
-| Matias Gonzalez | Documentación y Calidad | matias-gonzalez |
+| Matias Gonzalez | Documentación y Calidad | feature/matias-gonzalez |
 
 ### Notebooks Entrega 2
 - Refinamiento de Datos y EDA
