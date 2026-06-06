@@ -1,8 +1,8 @@
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
-HITO 2 
-## Hito 2 - Análisis Inteligente y Segmentación
 
-### Propiedad de Módulo
+## Hito 2 De Análisis Inteligente y Segmentación
+
+### Aportes
 | Estudiante | Responsabilidad | Rama |
 |---|---|---|
 | Camila Rojas | Modelado No Supervisado: K-Means, Método del Codo, interpretación de clústeres | feature/Camila-rojas |
