@@ -18,6 +18,7 @@
 - Aprendizaje No Supervisado (Clustering)
 - Supervisado Regresión
 - Supervisado Clasificación
+- Proyecto
 
 
 
