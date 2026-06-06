@@ -9,7 +9,7 @@
 | Martina Cortés | Análisis Descriptivo (EDA) | feature/martina-cortes |
 | Bastian Bravo | Scraping y Captura de Datos | feature/bastian-bravo |
 | Lucas Cheuque | Ingeniería de Datos y Pipeline | feature/Lucas-Cheuque |
-| Juan Pablo Salas | Scraping y Captura de Datos | feature/juan |
+| Juan Pablo Salas | Scraping y Captura de Datos | feature/juan-Salas |
 | Angelo Rojo | Scraping y Captura de Datos | feature/Angelo-Rojo |
 | Matias Gonzalez | Documentación y Calidad | feature/matias-gonzalez |
 
