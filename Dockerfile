@@ -21,8 +21,13 @@ RUN apt-get update && apt-get install -y \
     supervisor \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# 3. Instalar librerias de Python
-RUN pip install selenium pymongo webdriver-manager "pymongo[srv]" dnspython certifi pandas
+# 3. Librer as de Python para todo el curso (Scraping + Atlas + Spark)
+RUN pip install --no-cache-dir --upgrade pip && \
+    #pip install --no-cache-dir "pymongo[srv]" dnspython certifi selenium webdriver-manager pandas
+    pip install --no-cache-dir "pymongo[srv]" dnspython selenium webdriver-manager pandas certifi
+
+# Instalamos Streamlit y dependencias visuales usando pip
+RUN pip install --no-cache-dir streamlit seaborn openpyxl
 
 # 4. Conectores Spark-MongoDB
 RUN wget https://repo1.maven.org/maven2/org/mongodb/spark/mongo-spark-connector_2.12/10.3.0/mongo-spark-connector_2.12-10.3.0.jar -P /usr/local/spark/jars/ \

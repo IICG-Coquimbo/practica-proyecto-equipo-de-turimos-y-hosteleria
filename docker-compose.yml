@@ -6,6 +6,7 @@ services:
       - "8888:8888"
       - "6080:6080"
       - "4040:4040"
+      - "8501:8501"
     volumes:
       - .:/home/jovyan/work
     environment:
@@ -17,7 +18,6 @@ services:
     restart: always
     networks:
       - bigdata_net
-
   visualizer:
     image: mongo-express
     container_name: BigData_Visualizer
@@ -36,7 +36,6 @@ services:
     restart: always
     networks:
       - bigdata_net
-
   filebrowser:
     image: filebrowser/filebrowser
     container_name: BigData_FileBrowser
@@ -47,7 +46,6 @@ services:
     restart: always
     networks:
       - bigdata_net
-
 networks:
   bigdata_net:
     driver: bridge
