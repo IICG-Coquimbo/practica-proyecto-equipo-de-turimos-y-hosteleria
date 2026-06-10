@@ -1,4 +1,31 @@
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
+
+## Hito 2 De Análisis Inteligente y Segmentación
+
+### Aportes
+| Estudiante | Responsabilidad | Rama |
+|---|---|---|
+| Camila Rojas | Modelado No Supervisado: K-Means, Método del Codo, interpretación de clústeres | feature/Camila-rojas |
+| Martina Cortés | Análisis Descriptivo (EDA) | feature/martina-cortes |
+| Bastian Bravo | Scraping y Captura de Datos | feature/bastian-bravo |
+| Lucas Cheuque | Ingeniería de Datos y Pipeline | feature/Lucas-Cheuque |
+| Juan Pablo Salas | Scraping y Captura de Datos | feature/juan-Salas |
+| Angelo Rojo | Scraping y Captura de Datos | feature/Angelo-Rojo |
+| Matias Gonzalez | Documentación y Calidad | feature/matias-gonzalez |
+
+### Notebooks Entrega 2
+- Refinamiento de Datos y EDA
+- Aprendizaje No Supervisado (Clustering)
+- Supervisado Regresión
+- Supervisado Clasificación
+- Proyecto
+
+
+
+
+
+
+
 Recomendacion de alojamiento en chile: 
 Scraping de precios de las principales plataformas de alojamiento que operan en Chile, centralizado en MongoDB Atlas para apoyar lad decisiones de los turista.
 
