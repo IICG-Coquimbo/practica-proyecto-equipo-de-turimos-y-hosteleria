@@ -49,7 +49,7 @@ tab_est, tab_tac, tab_op = st.tabs([
 ])
 
 with tab_est:
-    st.header("Concentración del mercado por ciudad")
+    st.header("Indicador 1: Concentración del mercado por ciudad")
     st.caption("Frecuencia: Mensual | Objetivo: detectar dónde hay más oferta y dónde hay menos competencia")
 
     df_est = df['ciudad'].value_counts().reset_index()
@@ -75,7 +75,7 @@ with tab_est:
 
     st.info("Lectura de negocio: el mercado está repartido de forma pareja entre las ciudades; ninguna domina la oferta. La dirección concluye que hay espacio para invertir en distintos destinos, eligiendo por atractivo y rentabilidad, no por falta de competencia.")
 
-    st.subheader("Distribución de tipos de alojamiento en el mercado")
+    st.subheader("Indicador 2: Distribución de tipos de alojamiento en el mercado")
     df_tipos = df['tipo_alojamiento'].value_counts().reset_index()
     df_tipos.columns = ['tipo_alojamiento', 'cantidad']
     df_tipos['pct'] = (df_tipos['cantidad'] / total_aloj * 100).round(1)
@@ -94,7 +94,7 @@ with tab_est:
             f"con {tipo_menor['pct']}%. Esto le dice a un inversionista dónde está la mayor competencia (el formato "
             f"saturado) y qué formato está menos explotado y podría representar un nicho con menos rivales.")
 
-    st.subheader("Participación de cada segmento (cluster) en el mercado")
+    st.subheader("Indicador 3: Participación de cada segmento (cluster) en el mercado")
     df_clu = df['prediction'].value_counts().sort_index().reset_index()
     df_clu.columns = ['cluster', 'cantidad']
     df_clu['nombre'] = df_clu['cluster'].map(nombres_cluster)
@@ -116,7 +116,7 @@ with tab_est:
             f"el grueso de la demanda y por lo tanto el segmento más relevante para una estrategia de inversión.")
 
 with tab_tac:
-    st.header("Rango y dispersión de precios por tipo de alojamiento")
+    st.header("Indicador 4: Rango y dispersión de precios por tipo de alojamiento")
     st.caption("Frecuencia: Semanal | Objetivo: comparar precios entre tipos y definir estrategia")
 
     tipos_seleccionados = st.multiselect(
@@ -146,7 +146,7 @@ with tab_tac:
         tipo_barato = df_tac.iloc[0]
         st.info(f"Lectura de negocio: '{tipo_caro['tipo_alojamiento']}' es el tipo más caro (promedio ${tipo_caro['mean']:,.0f}) y '{tipo_barato['tipo_alojamiento']}' el más económico (promedio ${tipo_barato['mean']:,.0f}). La gerencia aprovecha esta dispersión para fijar precios donde haya menos competencia y mejor margen.")
 
-        st.subheader("Precio promedio por ciudad")
+        st.subheader("Indicador 5: Precio promedio por ciudad")
         df_ciudad_precio = df_filtrado.groupby('ciudad')['precio_clp'].mean().reset_index().sort_values(by='precio_clp', ascending=False)
         fig3, ax3 = plt.subplots(figsize=(10, 6))
         sns.barplot(x="precio_clp", y="ciudad", data=df_ciudad_precio,
@@ -163,7 +163,7 @@ with tab_tac:
                 f"(${c_barata['precio_clp']:,.0f}). Un inversionista que busca tarifas altas miraría las ciudades "
                 f"caras; uno que busca entrar con precios competitivos y captar volumen miraría las más económicas.")
 
-        st.subheader("Precio promedio por segmento (cluster)")
+        st.subheader("Indicador 6: Precio promedio por segmento (cluster)")
         df_clu_precio = df_filtrado.groupby('prediction')['precio_clp'].mean().reset_index()
         df_clu_precio['nombre'] = df_clu_precio['prediction'].map(nombres_cluster)
         fig6, ax6 = plt.subplots(figsize=(9, 4))
@@ -181,7 +181,7 @@ with tab_tac:
         st.info("Selecciona al menos un tipo de alojamiento.")
 
 with tab_op:
-    st.header("Salud de la reputación")
+    st.header("Indicador 7: Salud de la reputación por nivel de puntuación")
     st.caption("Frecuencia: Diario | Objetivo: identificar alojamientos con menor calidad percibida")
 
     umbral_punt = st.slider("Ajustar umbral de puntuación de alerta:",
@@ -218,7 +218,7 @@ with tab_op:
 
     st.info(f"Lectura de negocio: la calidad general es alta (puntuación promedio {punt_prom:.2f}; la mayoría en niveles Bueno y Excelente). La supervisión enfoca su atención en los alojamientos bajo el umbral de alerta para corregir su menor desempeño.")
 
-    st.subheader("Distribución de puntuaciones por tipo de alojamiento")
+    st.subheader("Indicador 8: Distribución de puntuaciones por tipo de alojamiento")
     fig4, ax4 = plt.subplots(figsize=(10, 5))
     sns.boxplot(x="tipo_alojamiento", y="puntuacion", data=df,
                 hue="tipo_alojamiento", palette="Set2", legend=False, ax=ax4)
@@ -233,7 +233,7 @@ with tab_op:
             "Un tipo con caja alta y compacta es una apuesta más segura en calidad; uno con caja larga tiene "
             "experiencias muy dispares, lo que implica más riesgo para el inversionista que entre ahí.")
 
-    st.subheader("Cantidad de alertas por ciudad")
+    st.subheader("Indicador 9: Cantidad de alertas por ciudad")
     if len(zona_alerta) > 0:
         alertas_ciudad = zona_alerta['ciudad'].value_counts().reset_index()
         alertas_ciudad.columns = ['ciudad', 'alertas']
