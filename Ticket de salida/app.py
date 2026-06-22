@@ -11,7 +11,7 @@ st.markdown("---")
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv("/home/jovyan/work/semanas/Semana 15/datos_alojamientos_dashboard.csv")
+    return pd.read_csv("/home/jovyan/work/Ticket de salida/datos_alojamientos_dashboard.csv")
 
 df = cargar_datos()
 df["precio_noche"] = pd.to_numeric(df["precio_noche"], errors="coerce")
