@@ -1,5 +1,111 @@
 # BigData_IICG_2026_Actualizado Turismo y hosteleria 
 
+# Proyecto Big Data Hito final
+
+**Curso:** Big Data para la Toma de Decisiones
+**Profesora:** Vannessa Duarte
+**Grupo:** G5 - Turismo y Hotelería
+
+---
+
+## Integrantes y Roles Organizacionales
+
+| Integrante | Plataforma | Rol | Nivel |
+|------------|------------|-----|-------|
+| Lucas Cheuque | Kayak.cl | Ingeniero de Datos - PySpark (Pipeline ETL) | **Nivel Táctico** |
+| Camila Rojas | Booking.com | Científica de Datos - Modelamiento/Clustering | **Nivel Táctico** |
+| Martina Cortés | HotelsCombined | Analista de BI - Tableros & Storytelling | **Nivel Estratégico** |
+| Bastián Bravo | Google Hotels | Especialista en Ingesta - Scrapers | **Nivel Operativo** |
+| Juan Pablo Salas | Trip.com | Especialista en Ingesta - Scrapers | **Nivel Operativo** |
+| Angelo Rojo | Denomades.com | Especialista en Ingesta - Scrapers | **Nivel Operativo** |
+| Matías González | Airbnb.cl | Documentación y Calidad de Datos | **Nivel Operativo** |
+
+---
+
+## Arquitectura del Proyecto
+
+La arquitectura del sistema está diseñada para garantizar un flujo de datos escalable, desde la captura de información en plataformas de alojamiento hasta su visualización en un dashboard ejecutivo.
+
+El ecosistema se despliega completamente en **Docker**, orquestando cinco contenedores que trabajan de forma integrada:
+
+1. **BigData_workspace**  
+   Contenedor principal basado en `jupyter/pyspark-notebook`. Aloja el entorno de desarrollo (Jupyter Lab) y contiene todas las librerías necesarias para el procesamiento distribuido con Apache Spark, scraping con Selenium, y visualización con Streamlit.
+
+2. **BigData_Visualizer** (Mongo Express)  
+   Interfaz web para la administración visual de la base de datos MongoDB. Permite consultar y validar los documentos almacenados sin necesidad de escribir comandos.
+
+3. **BigData_FileBrowser** (FileBrowser)  
+   Gestor de archivos dentro del contenedor, útil para revisar logs, CSVs y notebooks generados durante el proceso.
+
+4. **MongoDB Atlas (Nube)**  
+   Base de datos NoSQL utilizada como capa de persistencia. Todos los scrapers escriben aquí los datos extraídos, y Spark los consume desde este origen para su procesamiento.
+
+5. **Streamlit (Interfaz de Usuario)**  
+   Dashboard interactivo que consume los datos procesados y los KPIs calculados, presentándolos en tres niveles organizacionales (Estratégico, Táctico y Operacional) para la toma de decisiones.
+
+---
+
+##  Resumen de Indicadores Clave (KPIs)
+**Métricas Generales:**
+
+| Indicador | Valor |
+|-----------|-------|
+| Total de alojamientos | 3,584 |
+| Precio promedio | $90,750 CLP |
+| Puntuación promedio | 8.39 / 10 |
+| Grupo 0 (oportunidad) | 42.8% |
+
+---
+
+**Distribución por Tipo de Alojamiento:**
+
+| Tipo de Alojamiento | Cantidad | Precio Promedio (CLP) | Puntuación Promedio |
+|---------------------|----------|----------------------|---------------------|
+| apartamento | 416 | $83,634 | 8.32 |
+| casa/cabaña | 385 | $89,940 | 8.37 |
+| hostal | 818 | $47,521 | 8.36 |
+| hotel | 1,965 | $110,410 | 8.42 |
+**Interpretación de Negocio:**
+
+- **Hoteles** dominan el mercado con 1,965 alojamientos (54.8% del total) y tienen el precio más alto ($110,410 CLP), lo que indica mayor margen potencial.
+- **Hostales** son el formato más económico ($47,521 CLP) con 818 alojamientos, ideal para estrategias de volumen.
+- **El Grupo 0 (42.8% del mercado)** representa la mayor oportunidad: alojamientos con precio bajo y buena puntuación.
+- **La puntuación promedio es alta (8.39/10)**, lo que indica que el mercado chileno ofrece buena calidad general.
+
+---
+## Estructura del repositorio
+proyecto-big-data-2026-equipo-de-turimos-y-hosteleria/
+│
+├── scrapers/                          # Scrapers por plataforma
+│   ├── scraper_angelo_rojo.py        # Angelo Rojo (Denomades.com)
+│   ├── scraper_bastian.py            # Bastián Bravo (Google Hotels)
+│   ├── scraper_camila_rojas.py       # Camila Rojas (Booking.com)
+│   ├── scraper_juan_salas.py         # Juan Pablo Salas (Trip.com)
+│   ├── scraper_lucas_cheuque.py      # Lucas Cheuque (Kayak.cl)
+│   ├── scraper_martina_cortes.py     # Martina Cortés (HotelsCombined)
+│   └── scraper_matias_gonzalez.py    # Matías González (Airbnb.cl)
+│
+├── Turismo y hosteleria/              # Carpeta principal del proyecto
+│   └── entrega_final/                 # Archivos de entrega final
+│       ├── app.py                    # Dashboard Streamlit (versión final)
+│       ├── datos_alojamientos_dashboard.csv  # Datos procesados
+│       ├── Proyecto_Final.ipynb      # Informe final consolidado
+│       ├── EDA_Alojamientos.ipynb
+│       ├── Clustering_Alojamientos.ipynb
+│       ├── Supervisado_Clasificacion.ipynb
+│       ├── Supervisado_Regresion.ipynb
+│       └── Storytelling_Alojamientos.ipynb
+│
+├── docker/                            # Configuración de contenedores
+│   ├── Dockerfile                    # Configuración del contenedor
+│   └── docker-compose.yml            # Orquestación de servicios
+│
+├── main.py                           # Orquestador de scrapers
+├── README.md                         # Documentación del proyecto
+└── start-vnc.sh                      # Script de inicio VNC
+
+
+
 ## Hito 2 De Análisis Inteligente y Segmentación
 
 ### Aportes
